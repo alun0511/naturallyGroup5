@@ -1,0 +1,39 @@
+/* Exo regular + light */
+
+@font-face {
+  font-family: "Exo";
+  src: local("Exo"), url("/fonts/exo/Exo-Regular.woff2") format("woff2"),
+    url("/fonts/exo/Exo-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Exo";
+  src: local("Exo-light"), url("/fonts/Exo/Exo-Light.woff2") format("woff2"),
+    url("/fonts/exo/Exo-Light.woff") format("woff");
+  font-weight: 200;
+}
+
+/* Fahkwang regular + extralight + bold */
+
+@font-face {
+  font-family: "Fahkwang";
+  src: local("Fahkwang"),
+    url("/fonts/Fahkwang/Fahkwang-Regular.woff2") format("woff2"),
+    url("/fonts/Fahkwang/Fahkwang-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Fahkwang";
+  src: local("Fahkwang-extralight"),
+    url("/fonts/Fahkwang/Fahkwang-ExtraLight.woff2") format("woff2"),
+    url("/fonts/Fahkwang/Fahkwang-ExtraLight.woff") format("woff");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Fahkwang";
+  src: local("Fahkwang-bold"),
+    url("/fonts/Fahkwang/Fahkwang-Bold.woff2") format("woff2"),
+    url("/fonts/Fahkwang/Fahkwang-Bold.woff") format("woff");
+  font-weight: 800;
+}
