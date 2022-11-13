@@ -32,7 +32,7 @@ nav {
 }
 
 .logo-wrapper p {
-  font-family: "Fahkwang";
+  font-family: "Fahkwang", sans-serif;
   margin: 0;
   padding: 0;
 }
