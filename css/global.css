@@ -15,3 +15,14 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: auto 0;
+  /* background-color: var(--color-off-white); */
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: var(--color-dark-green);
+  }
+}
