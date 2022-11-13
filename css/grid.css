@@ -1,0 +1,22 @@
+/* DESKTOP */
+@media (min-width: 768px) {
+}
+
+/* MOBILE */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  row-gap: 58px;
+}
+
+.hero {
+  grid-row: 2, 3;
+}
+
+.articles {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 58px;
+}

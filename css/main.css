@@ -1,0 +1,20 @@
+main {
+  margin: 60px 0px 400px 0px;
+}
+
+.hero {
+  height: 369px;
+  width: 100%;
+  background-color: var(--color-light-green);
+}
+
+article {
+  height: 279px;
+  width: 100%;
+  background-color: var(--color-off-white);
+  border: solid 2px var(--color-light-green);
+}
+
+form {
+  display: none;
+}
