@@ -7,8 +7,8 @@ Collaboration of digital designers, web developers and computer graphic artists 
 
 ### Collaborators
 #### Web Developers & Design
-- Mauricio (DD)
-- Sally (DD)
+- Mauricio Camacho (DD)
+- Sally Dahlqvist (DD)
 - Johanna Pihl (WU)
 - Alfred Unenge (WU)
 
