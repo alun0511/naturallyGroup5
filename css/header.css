@@ -120,16 +120,3 @@ nav {
 header ul {
   display: none;
 }
-
-/* DESKTOP */
-@media (min-width: 768px) {
-  header ul {
-    display: flex;
-  }
-  .hamburger {
-    display: none;
-  }
-  li {
-    display: inline-block;
-  }
-}

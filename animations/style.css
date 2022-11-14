@@ -1,0 +1,22 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;    
+}
+
+h1 {
+    width: 40px;
+    height: 40px;
+    background-color: plum;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.drop-menu {
+    width: 200px;
+    height: 600px;
+    background-color: aquamarine;
+}
