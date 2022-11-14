@@ -1,11 +1,11 @@
 /* DESKTOP */
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
 }
 @media (min-width: 768px) {
   body {
     background-color: var(--color-dark-green);
   }
-} */
+}
 
 /* MOBILE */
 
