@@ -1,8 +1,30 @@
+@keyframes animateIn {
+from {
+transform: translateX(0%);
+}
+to {
+transform: translateX(100%);
+}
+}
+
+@keyframes animateOut {
+    from {
+transform: scaleY(0);
+}
+to {
+transform: scaleY(1);
+}
+}
+
 .nav-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 50px;    
+}
+
+.nav-bar p {
+    margin: 0;
 }
 
 h1 {
@@ -12,11 +34,20 @@ h1 {
     text-align: center;
     display: flex;
     justify-content: center;
-
+    margin: 0;
 }
 
 .drop-menu {
     width: 200px;
     height: 600px;
     background-color: aquamarine;
+    position: absolute;
+    transition: ease-in;
+    transition-duration: 1s;
+    /* animation: animateIn;
+    animation-duration: 2s; */
+}
+
+.hidden { 
+    opacity: 0%;
 }
