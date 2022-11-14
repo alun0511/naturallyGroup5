@@ -8,23 +8,17 @@ header {
   height: 60px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
   flex-direction: row;
-  padding: 1rem;
 }
 
 nav {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
   flex-direction: row;
   gap: 1rem;
-}
-
-.hamburger {
-  width: 30px;
-  height: 30px;
-  background: var(--color-dark-green);
-  border: 0;
+  align-items: center;
+  margin: 0px 20px 0px 20px;
 }
 
 .logo {
@@ -35,6 +29,18 @@ nav {
   font-family: "Fahkwang", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.hamburger {
+  width: 30px;
+  height: 30px;
+  background: var(--color-dark-green);
+  border: 0;
+}
+.logo-wrapper {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-dark-green);
 }
 
 .search {
@@ -57,6 +63,10 @@ header ul {
 @media (min-width: 768px) {
   header ul {
     display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
   }
   .hamburger {
     display: none;

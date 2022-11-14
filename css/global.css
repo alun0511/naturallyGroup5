@@ -10,6 +10,10 @@
   --color-dark-green: rgba(70, 110, 68, 1);
   --color-off-white: rgba(254, 255, 246, 1);
   --color-light-green: rgba(189, 198, 150, 1);
+
+  /* Font Family */
+
+  --font-family-base: Exo, Arial, sans-serif;
 }
 
 * {
@@ -17,6 +21,7 @@
 }
 
 body {
-  margin: auto 0;
-  /* background-color: var(--color-off-white); */
+  margin: 0;
+  background-color: var(--color-off-white);
+  font-family: var(--font-family-base);
 }
