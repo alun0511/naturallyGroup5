@@ -21,11 +21,6 @@ body {
   /* background-color: var(--color-off-white); */
 }
 
-@media (min-width: 768px) {
-  body {
-    background-color: var(--color-dark-green);
-  }
-}
 :root {
   /* Font sizes (temporary) */
   --h1-large: 2.25rem;
