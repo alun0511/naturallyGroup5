@@ -1,0 +1,12 @@
+.drop-menu {
+  width: 200px;
+  height: 600px;
+  background-color: aquamarine;
+  position: absolute;
+  transition: 0.5s;
+  transform: translateX(0);
+}
+
+.hidden {
+  transform: translateX(-100%);
+}

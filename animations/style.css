@@ -1,53 +1,38 @@
-@keyframes animateIn {
-from {
-transform: translateX(0%);
-}
-to {
-transform: translateX(100%);
-}
-}
-
-@keyframes animateOut {
-    from {
-transform: scaleY(0);
-}
-to {
-transform: scaleY(1);
-}
+body,
+p {
+  margin: 0;
 }
 
 .nav-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
 }
 
 .nav-bar p {
-    margin: 0;
+  margin: 0;
 }
 
 h1 {
-    width: 40px;
-    height: 40px;
-    background-color: plum;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: 0;
+  width: 40px;
+  height: 40px;
+  background-color: plum;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 
 .drop-menu {
-    width: 200px;
-    height: 600px;
-    background-color: aquamarine;
-    position: absolute;
-    transition: ease-in;
-    transition-duration: 1s;
-    /* animation: animateIn;
-    animation-duration: 2s; */
+  width: 200px;
+  height: 600px;
+  background-color: aquamarine;
+  position: absolute;
+  transition: 0.5s;
+  transform: translateX(0);
 }
 
-.hidden { 
-    opacity: 0%;
+.hidden {
+  transform: translateX(-100%);
 }

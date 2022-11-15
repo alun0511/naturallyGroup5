@@ -2,14 +2,14 @@
 
 @font-face {
   font-family: "Exo";
-  src: local("Exo"), url("/fonts/exo/Exo-Regular.woff2") format("woff2"),
-    url("/fonts/exo/Exo-Regular.woff") format("woff");
+  src: local("Exo-Regular"), url("/fonts/Exo/Exo-Regular.woff2") format("woff2"),
+    url("/fonts/Exo/Exo-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Exo";
-  src: local("Exo-light"), url("/fonts/Exo/Exo-Light.woff2") format("woff2"),
-    url("/fonts/exo/Exo-Light.woff") format("woff");
+  src: local("Exo-Light"), url("/fonts/Exo/Exo-Light.woff2") format("woff2"),
+    url("/fonts/Exo/Exo-Light.woff") format("woff");
   font-weight: 200;
 }
 
