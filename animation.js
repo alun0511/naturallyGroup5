@@ -18,3 +18,13 @@ hamburgerMenu.addEventListener("click", () => {
     menu.classList.add("hidden");
   }
 });
+
+window.onscroll = () => {
+  console.log(`Hello`);
+  console.log("document.body.scrollTop");
+  document.body.scrollTop;
+};
+
+document.body.onscroll = () => {
+  console.log(`Hello`);
+};
