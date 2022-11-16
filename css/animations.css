@@ -2,7 +2,7 @@
   width: 200px;
   height: 600px;
   background-color: aquamarine;
-  position: absolute;
+  position: fixed;
   transition: 0.5s;
   transform: translateX(0);
 }
