@@ -2,6 +2,7 @@ const hamburgerMenu = document.querySelector(".hamburger");
 const menu = document.querySelector(".drop-menu");
 const hiddenMenu = document.querySelector(".hidden");
 const userEmail = document.getElementById("email");
+const body = document.querySelector("body");
 
 const minWidth = window.matchMedia("(min-width: 768px)");
 
@@ -19,12 +20,14 @@ hamburgerMenu.addEventListener("click", () => {
   }
 });
 
-window.onscroll = () => {
+window.addEventListener("scroll", () => {
+  // body.onscroll = () => {
   console.log(`Hello`);
-  console.log("document.body.scrollTop");
-  document.body.scrollTop;
-};
+  // body.scrollTop;
+  // };
+});
 
-document.body.onscroll = () => {
+/* document.body.onscroll = () => {
   console.log(`Hello`);
 };
+ */
