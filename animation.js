@@ -6,6 +6,7 @@ const body = document.querySelector("body");
 const cart = document.querySelector(".cart");
 const hidenCart = document.querySelector(".hidden-right");
 const shoppingBag = document.querySelector(".shopping-bag");
+const language = document.querySelector(".language-button");
 
 const minWidth = window.matchMedia("(min-width: 768px)");
 
@@ -37,6 +38,18 @@ shoppingBag.addEventListener("click", () => {
     menu.classList.add("hidden-left");
   } else if (!cart.classList.contains("hidden-right")) {
     cart.classList.add("hidden-right");
+  }
+});
+
+let eng = true;
+
+language.addEventListener("click", () => {
+  if (eng == true) {
+    language.innerHTML = "<a><strong>SV/</strong>EN</a>";
+    eng = false;
+  } else {
+    language.innerHTML = "<a>SV<strong>/EN</strong></a>";
+    eng = true;
   }
 });
 

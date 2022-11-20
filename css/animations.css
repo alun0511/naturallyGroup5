@@ -36,3 +36,8 @@
 .hidden-right {
   transform: translateX(110%);
 }
+
+.language-button {
+  width: 60px;
+  height: 30px;
+}
