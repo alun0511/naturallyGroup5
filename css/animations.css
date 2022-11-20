@@ -1,12 +1,38 @@
 .drop-menu {
-  width: 200px;
-  height: 600px;
-  background-color: aquamarine;
+  width: 322px;
+  height: 395px;
+  background-color: var(--color-creme);
   position: fixed;
   transition: 0.5s;
   transform: translateX(0);
 }
 
-.hidden {
+.shopping-icon {
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-dark-green);
+}
+
+.cart {
+  width: 322px;
+  height: 395px;
+  width: 322px;
+  height: 395px;
+  background-color: var(--color-creme);
+  position: fixed;
+  transition: 0.5s;
+  right: 0;
+}
+
+.drop-menu ul {
+  list-style-type: none;
+  padding-left: 24;
+}
+
+.hidden-left {
   transform: translateX(-100%);
+}
+
+.hidden-right {
+  transform: translateX(110%);
 }

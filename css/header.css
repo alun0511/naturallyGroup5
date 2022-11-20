@@ -19,6 +19,7 @@ nav {
   gap: 1rem;
   align-items: center;
   margin: 0px 20px 0px 20px;
+  background-color: var(--color-creme);
 }
 
 .logo {
