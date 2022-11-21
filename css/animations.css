@@ -5,6 +5,7 @@
   position: fixed;
   transition: 0.5s;
   transform: translateX(0);
+  margin-top: 70px;
 }
 
 .shopping-icon {
@@ -22,6 +23,7 @@
   position: fixed;
   transition: 0.5s;
   right: 0;
+  margin-top: 70px;
 }
 
 .drop-menu ul {
@@ -34,7 +36,7 @@
 }
 
 .hidden-right {
-  transform: translateX(110%);
+  transform: translateX(100%);
 }
 
 .language-button {

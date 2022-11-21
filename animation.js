@@ -13,6 +13,7 @@ const minWidth = window.matchMedia("(min-width: 768px)");
 window.addEventListener("resize", () => {
   if (minWidth.matches) {
     menu.classList.add("hidden-left");
+    cart.classList.add("hidden-right");
   }
 });
 
