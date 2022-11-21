@@ -1,10 +1,10 @@
 header {
-  background-color: white;
-  margin-top: 0;
-  top: 0;
+  background-color: var(--color-creme);
+  /* margin-top: 0;
+  top: 0; */
   left: 0;
   box-shadow: 4px 0px 4px black;
-  position: fixed;
+  /* position: fixed; */
   height: 70px;
   width: 100%;
   display: flex;
@@ -18,12 +18,12 @@ nav {
   flex-direction: row;
   gap: 1rem;
   align-items: center;
-  margin: 0px 20px 0px 20px;
+  /* margin: 0px 20px 0px 20px; */
   background-color: var(--color-creme);
 }
 
 .logo {
-  display: none;
+  height: 70px;
 }
 
 .logo-wrapper p {
@@ -35,28 +35,28 @@ nav {
 .hamburger {
   width: 30px;
   height: 30px;
-  background: var(--color-dark-green);
   border: 0;
 }
 .logo-wrapper {
   width: 40px;
   height: 40px;
-  background-color: var(--color-dark-green);
 }
 
 .search {
   width: 30px;
   height: 30px;
-  background: var(--color-dark-green);
 }
 
 .shopping-bag {
   width: 30px;
   height: 30px;
-  background: var(--color-dark-green);
 }
 
 .menu-links ul {
+  display: none;
+}
+
+.offer {
   display: none;
 }
 
@@ -74,5 +74,15 @@ nav {
   }
   li {
     display: inline-block;
+  }
+
+  .offer {
+    width: 100%;
+    height: 54px;
+    background-color: var(--color-black-light);
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    padding-left: 80px;
   }
 }
