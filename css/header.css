@@ -8,7 +8,7 @@ header {
   height: 70px;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 nav {
@@ -17,25 +17,28 @@ nav {
   justify-content: space-between;
   flex-direction: row;
   gap: 1rem;
-  align-items: center;
-  /* margin: 0px 20px 0px 20px; */
+  align-items: flex-end;
+  flex-grow: 1;
+  padding: 0px 20px 0px 20px;
   background-color: var(--color-creme);
+  padding-bottom: 8px;
+}
+
+.hamburger,
+.logo-wrapper,
+.nav-icons,
+.shopping-bag {
+  display: flex;
+  align-items: flex-end;
 }
 
 .logo {
-  height: 70px;
-}
-
-.logo-wrapper p {
-  font-family: "Fahkwang", sans-serif;
-  margin: 0;
-  padding: 0;
+  height: 30px;
 }
 
 .hamburger {
   width: 30px;
   height: 30px;
-  border: 0;
 }
 .logo-wrapper {
   width: 40px;
@@ -45,6 +48,7 @@ nav {
 .search {
   width: 30px;
   height: 30px;
+  align-self: flex-end;
 }
 
 .shopping-bag {
@@ -76,6 +80,17 @@ nav {
     display: inline-block;
   }
 
+  header {
+    justify-content: flex-end;
+  }
+
+  .menu-links a {
+    margin: 0;
+    font-family: "Exo";
+    font-size: 24px;
+    font-weight: 400;
+  }
+
   .offer {
     width: 100%;
     height: 54px;
@@ -84,5 +99,23 @@ nav {
     align-items: center;
     color: var(--color-white);
     padding-left: 80px;
+  }
+
+  .logo-wrapper img,
+  .logo-wrapper {
+    width: 100px;
+    height: 80px;
+    padding-bottom: 0;
+  }
+
+  .search {
+    width: 50px;
+    height: 50px;
+    align-self: flex-end;
+  }
+
+  .shopping-bag {
+    width: 50px;
+    height: 50px;
   }
 }
