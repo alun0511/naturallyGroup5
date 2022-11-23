@@ -15,8 +15,8 @@ main {
   grid-row: 2, 3;
 }
 
-.articles {
+/* .articles {
   display: grid;
   grid-template-rows: auto 1fr;
   row-gap: 58px;
-}
+} */
