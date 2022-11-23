@@ -8,7 +8,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr;
-  row-gap: 58px;
+  /* row-gap: 58px; */
 }
 
 .hero {
