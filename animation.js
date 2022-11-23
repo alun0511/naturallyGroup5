@@ -56,7 +56,7 @@ language.addEventListener("click", () => {
 
 window.addEventListener("scroll", () => {
   // body.onscroll = () => {
-  console.log(`Hello`);
+  // console.log(`Hello`);
   // body.scrollTop;
   // };
 });
