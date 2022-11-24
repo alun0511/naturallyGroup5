@@ -43,3 +43,10 @@
   width: 60px;
   height: 30px;
 }
+
+@media (min-width: 768px) {
+  .cart {
+    width: 609px;
+    height: 627px;
+  }
+}

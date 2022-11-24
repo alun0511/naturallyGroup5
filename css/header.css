@@ -60,6 +60,11 @@ nav {
   display: none;
 }
 
+.icon-wrapper {
+  width: 60px;
+  display: flex;
+}
+
 .offer {
   display: none;
 }
@@ -70,7 +75,8 @@ nav {
     display: flex;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0;
     gap: 40px;
   }
   .hamburger {
@@ -82,6 +88,7 @@ nav {
 
   header {
     justify-content: flex-end;
+    height: 134px;
   }
 
   .menu-links a {
@@ -89,6 +96,7 @@ nav {
     font-family: "Exo";
     font-size: 24px;
     font-weight: 400;
+    white-space: nowrap;
   }
 
   .offer {
@@ -108,10 +116,14 @@ nav {
     padding-bottom: 0;
   }
 
+  .icon-wrapper {
+    width: 100px;
+    display: flex;
+  }
+
   .search {
     width: 50px;
     height: 50px;
-    align-self: flex-end;
   }
 
   .shopping-bag {

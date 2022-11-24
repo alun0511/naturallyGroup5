@@ -6,7 +6,7 @@ const body = document.querySelector("body");
 const cart = document.querySelector(".cart");
 const hidenCart = document.querySelector(".hidden-right");
 const shoppingBag = document.querySelector(".shopping-bag");
-const language = document.querySelector(".language-button");
+const language = document.querySelectorAll(".language-button");
 
 const minWidth = window.matchMedia("(min-width: 768px)");
 
@@ -17,6 +17,7 @@ window.addEventListener("resize", () => {
   }
 });
 
+language.forEach(() => {});
 hamburgerMenu.addEventListener("click", () => {
   if (
     menu.classList.contains(
