@@ -35,6 +35,52 @@ button:hover,
   cursor: pointer;
 }
 
+.drop-menu button {
+  text-decoration: none;
+  border: transparent;
+  background-color: transparent;
+}
+
+.drop-menu ul {
+  margin-top: 32px;
+  padding-left: 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1fr) 2.5fr;
+  gap: 16px;
+}
+
+.drop-menu li:last-child {
+  display: flex;
+  align-items: flex-end;
+}
+
+.language-button {
+  bottom: 0;
+  left: 0;
+}
+
+.hidden-menus button,
+.hidden-menus a {
+  margin: 0;
+  font-family: "Exo";
+  font-size: 18px;
+  font-weight: 400;
+  white-space: nowrap;
+  color: var(--color-black-light);
+  padding: 0;
+}
+
+.cart p {
+  margin: 32px 24px 0 24px;
+  border-bottom: solid 2px var(--color-black-light);
+  font-family: "Exo";
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-black-light);
+  text-align: right;
+}
+
 .hamburger,
 .logo-wrapper,
 .nav-icons,
@@ -148,5 +194,9 @@ button:hover,
   .shopping-bag {
     width: 50px;
     height: 50px;
+  }
+
+  .cart p {
+    font-size: 32px;
   }
 }
