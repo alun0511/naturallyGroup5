@@ -113,15 +113,6 @@ h2 {
   background-color: var(--color-green-middle);
 }
 
-.socials-wrapper {
-  background-image: linear-gradient(
-    var(--color-creme),
-    var(--color-dark-green-transparent),
-    var(--color-darkest-green)
-  );
-  padding: 0 0 120px 0;
-}
-
 form button {
   border: none;
   background-color: var(--color-green-dolce);
@@ -184,19 +175,27 @@ input[type="email"]:focus {
     row-gap: 40px;
   }
 
-  .image-container {
-    width: 300px;
-    height: 300px;
+  .socials-wrapper {
+    background-image: linear-gradient(
+      var(--color-creme),
+      var(--color-dark-green-transparent),
+      var(--color-darkest-green)
+    );
   }
 
   .image-container img {
-    width: 300px;
+    inline-size: 100%;
   }
 
-  .socials-carusell {
+  .media-scroller {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-flow: column;
+    grid-auto-columns: 17%;
     grid-template-rows: repeat(2, 1fr);
+    column-gap: 4%;
+    row-gap: 8%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
   }
 
   .hero-image button {
