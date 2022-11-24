@@ -39,8 +39,8 @@
   transform: translateX(100%);
 }
 
-.language-button {
-  width: 60px;
+.menu-links button {
+  width: 90px;
   height: 30px;
 }
 
@@ -48,5 +48,10 @@
   .cart {
     width: 609px;
     height: 627px;
+  }
+
+  .hidden-menus button {
+    width: 53px;
+    height: 24px;
   }
 }
