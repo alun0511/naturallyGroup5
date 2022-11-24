@@ -7,7 +7,7 @@ main {
   width: 100%;
   background-image: url("/images/Hero\ Mobile.jpg");
   background-repeat: no-repeat;
-  padding: 0 58px 0 58px;
+  text-align: center;
   display: flex;
   justify-content: center;
 }
@@ -74,14 +74,6 @@ article {
   margin: 0;
 }
 
-h1 {
-  font-family: "Fahkwang";
-  font-weight: 400;
-  font-size: 48px;
-  color: var(--color-white);
-  margin: 0;
-}
-
 .info {
   background-image: linear-gradient(
     var(--color-darkest-green),
@@ -90,22 +82,11 @@ h1 {
   );
   height: 672px;
   width: 100%;
-  padding: 0 8px 0 8px;
   display: flex;
+  padding: 0 8px 0 8px;
   justify-content: center;
   flex-direction: column;
   gap: 40px;
-}
-
-h2 {
-  font-family: "Exo";
-  font-weight: 400;
-  font-size: 24px;
-  color: var(--color-white);
-  margin: 0;
-  height: 49px;
-  background-color: var(--color-green-middle);
-  text-align: center;
 }
 
 .info p {
@@ -113,7 +94,7 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   color: var(--color-white);
-  margin: 0;
+  padding: 0 8px 0 8px;
   height: 500px;
   background-color: var(--color-green-middle);
 }
@@ -202,6 +183,7 @@ input[type="email"]:focus {
     align-content: center; */
     justify-self: center;
   }
+
   .articles {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -218,23 +200,5 @@ input[type="email"]:focus {
 
   .hero-image p {
     font-size: 48px;
-  }
-
-  h1 {
-    font-size: 96px;
-  }
-
-  h2 {
-    font-size: 58px;
-    width: 560px;
-    height: 146px;
-    text-align: left;
-    font-weight: 200;
-  }
-
-  .info p {
-    font-size: 28px;
-    width: 696px;
-    height: 944px;
   }
 }
