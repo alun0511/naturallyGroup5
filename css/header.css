@@ -4,7 +4,7 @@ header {
   top: 0; */
   left: 0;
   box-shadow: 4px 0px 4px black;
-  /* position: fixed; */
+  position: fixed;
   height: 70px;
   width: 100%;
   display: flex;
