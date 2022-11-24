@@ -7,6 +7,9 @@ const cart = document.querySelector(".cart");
 const hidenCart = document.querySelector(".hidden-right");
 const shoppingBag = document.querySelector(".shopping-bag");
 const language = document.querySelectorAll(".language-button");
+const search = document.querySelector(".search");
+const searchField = document.querySelector(".search-field");
+const hiddenSearch = document.querySelector(".hidden-top");
 
 const minWidth = window.matchMedia("(min-width: 768px)");
 
@@ -17,7 +20,18 @@ window.addEventListener("resize", () => {
   }
 });
 
-language.forEach(() => {});
+// language.forEach(() => {});
+
+search.addEventListener("click", () => {
+  if (searchField.classList.contains("hidden-top")) {
+    searchField.classList.remove("hidden-top");
+    cart.classList.add("hidden-right");
+    menu.classList.add("hidden-left");
+  } else if (!searchField.classList.contains("hidden-top")) {
+    searchField.classList.add("hidden-top");
+  }
+});
+
 hamburgerMenu.addEventListener("click", () => {
   if (
     menu.classList.contains(
@@ -26,6 +40,7 @@ hamburgerMenu.addEventListener("click", () => {
   ) {
     menu.classList.remove("hidden-left");
     cart.classList.add("hidden-right");
+    searchField.classList.add("hidden-top");
   } else if (!menu.classList.contains("hidden-left")) {
     menu.classList.add("hidden-left");
   }
@@ -38,6 +53,7 @@ shoppingBag.addEventListener("click", () => {
   ) {
     cart.classList.remove("hidden-right");
     menu.classList.add("hidden-left");
+    searchField.classList.add("hidden-top");
   } else if (!cart.classList.contains("hidden-right")) {
     cart.classList.add("hidden-right");
   }
