@@ -24,6 +24,17 @@ nav {
   padding-bottom: 8px;
 }
 
+.menu-links a:hover,
+button:hover,
+.hamburger:hover,
+.search:hover,
+.shopping-bag:hover,
+.language-button:hover,
+.hidden-menus:hover,
+.footer-links a:hover {
+  cursor: pointer;
+}
+
 .hamburger,
 .logo-wrapper,
 .nav-icons,
@@ -91,12 +102,20 @@ nav {
     height: 134px;
   }
 
-  .menu-links a {
+  .menu-links a,
+  .menu-links button {
     margin: 0;
     font-family: "Exo";
     font-size: 24px;
     font-weight: 400;
     white-space: nowrap;
+    color: var(--color-black-light);
+  }
+
+  .menu-links button {
+    text-decoration: none;
+    border: transparent;
+    background-color: transparent;
   }
 
   .offer {
