@@ -21,36 +21,6 @@ window.addEventListener("resize", () => {
   }
 });
 
-let eng = true;
-
-language.forEach((button) => {
-  const newbutton = button;
-
-  newbutton.addEventListener("click", () => {
-    if (!eng) {
-      language.forEach((button) => {
-        button.innerHTML = "<a>SV<strong>/EN</strong></a>";
-      });
-      eng = true;
-    } else {
-      language.forEach((button) => {
-        button.innerHTML = "<a><strong>SV/</strong>EN</a>";
-      });
-      eng = false;
-    }
-  });
-});
-
-/* language.addEventListener("click", () => {
-  if (eng == true) {
-    language.innerHTML = "<a><strong>SV/</strong>EN</a>";
-    eng = false;
-  } else {
-    language.innerHTML = "<a>SV<strong>/EN</strong></a>";
-    eng = true;
-  }
-}); */
-
 search.addEventListener("click", () => {
   if (searchField.classList.contains("hidden-top")) {
     searchField.classList.remove("hidden-top");
