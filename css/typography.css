@@ -1,6 +1,5 @@
 h1 {
-  font-family: "Fahkwang";
-  font-weight: 400;
+  font-family: "Fahkwang-Regular";
   font-size: 4rem;
   color: var(--color-white);
   margin: 0;
@@ -12,8 +11,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Exo";
-  font-weight: 400;
+  font-family: "Exo-Regular";
   font-size: 24px;
   color: var(--color-white);
   margin: 0;
@@ -24,12 +22,13 @@ h3 {
 h4 {
   margin: 0;
   padding: 0;
-  font-family: "Exo";
+  font-family: "Exo-Regular";
   font-size: 2rem;
   font-weight: 400;
 }
 
 .articles h6 {
+  font-family: "Fahkwang-Regular";
   color: white;
   font-size: 2rem;
   background-color: var(--color-almost-black);
@@ -37,9 +36,8 @@ h4 {
 
 .footer-icons h6 {
   margin: 0;
-  font-family: "Exo";
+  font-family: "Exo-Regular";
   font-size: 1rem;
-  font-weight: 400;
 }
 
 .socials-text p {
