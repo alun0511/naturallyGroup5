@@ -13,7 +13,6 @@ footer {
   height: 76px;
   width: 100%;
   background-color: var(--color-creme);
-  /* border: var(--color-light-green) solid 1px; */
   flex-grow: 1;
   justify-content: center;
   align-items: center;
@@ -55,12 +54,15 @@ footer {
 
 @media (min-width: 768px) {
   footer {
-    height: 214px;
+    height: auto;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 26px 100px 0 40px;
+    justify-content: center;
+    padding: 26px 100px 56px 40px;
+    flex-wrap: wrap;
+    column-gap: 200px;
+    row-gap: 20px;
   }
 
   h5 {
