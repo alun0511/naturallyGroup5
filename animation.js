@@ -7,6 +7,7 @@ const cart = document.querySelector(".cart");
 const hidenCart = document.querySelector(".hidden-right");
 const shoppingBag = document.querySelector(".shopping-bag");
 const language = document.querySelectorAll(".language-button");
+// const language = document.querySelector(".language-button");
 const search = document.querySelector(".search");
 const searchField = document.querySelector(".search-field");
 const hiddenSearch = document.querySelector(".hidden-top");
@@ -20,7 +21,35 @@ window.addEventListener("resize", () => {
   }
 });
 
-// language.forEach(() => {});
+let eng = true;
+
+language.forEach((button) => {
+  const newbutton = button;
+
+  newbutton.addEventListener("click", () => {
+    if (!eng) {
+      language.forEach((button) => {
+        button.innerHTML = "<a>SV<strong>/EN</strong></a>";
+      });
+      eng = true;
+    } else {
+      language.forEach((button) => {
+        button.innerHTML = "<a><strong>SV/</strong>EN</a>";
+      });
+      eng = false;
+    }
+  });
+});
+
+/* language.addEventListener("click", () => {
+  if (eng == true) {
+    language.innerHTML = "<a><strong>SV/</strong>EN</a>";
+    eng = false;
+  } else {
+    language.innerHTML = "<a>SV<strong>/EN</strong></a>";
+    eng = true;
+  }
+}); */
 
 search.addEventListener("click", () => {
   if (searchField.classList.contains("hidden-top")) {
@@ -56,18 +85,6 @@ shoppingBag.addEventListener("click", () => {
     searchField.classList.add("hidden-top");
   } else if (!cart.classList.contains("hidden-right")) {
     cart.classList.add("hidden-right");
-  }
-});
-
-let eng = true;
-
-language.addEventListener("click", () => {
-  if (eng == true) {
-    language.innerHTML = "<a><strong>SV/</strong>EN</a>";
-    eng = false;
-  } else {
-    language.innerHTML = "<a>SV<strong>/EN</strong></a>";
-    eng = true;
   }
 });
 
