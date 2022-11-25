@@ -1,7 +1,7 @@
 header {
   background-color: var(--color-creme);
-  /* margin-top: 0;
-  top: 0; */
+  margin-top: 0;
+  top: 0;
   left: 0;
   box-shadow: 4px 0px 4px black;
   position: fixed;

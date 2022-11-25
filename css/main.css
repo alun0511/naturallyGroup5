@@ -1,5 +1,5 @@
 main {
-  margin: 0 0 120px 0;
+  margin-top: 70px;
 }
 
 .hero {
@@ -89,7 +89,6 @@ article h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* z-index: 1; */
 }
 
 .offer-section label {
@@ -106,7 +105,6 @@ article h6 {
   background-color: var(--color-black-light);
   border: solid 4px var(--color-green-deep);
   color: var(--color-white);
-  /* z-index: 2; */
 }
 
 .info {
@@ -121,7 +119,6 @@ article h6 {
   padding: 0 8px 0 8px;
   justify-content: center;
   flex-direction: column;
-  /* gap: 40px; */
 }
 
 .info p {
@@ -150,7 +147,6 @@ form label {
 
 input[type="email"] {
   border: none;
-  /* border-radius: 4px; */
   font-family: "Exo-Light";
   font-style: italic;
   font-size: 16px;
@@ -177,6 +173,9 @@ input[type="email"]:focus {
 }
 
 @media (min-width: 768px) {
+  main {
+    margin-top: 134px;
+  }
   .socials-text img {
     width: 80px;
     margin-right: 40px;

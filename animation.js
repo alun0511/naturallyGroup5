@@ -7,12 +7,21 @@ const cart = document.querySelector(".cart");
 const hidenCart = document.querySelector(".hidden-right");
 const shoppingBag = document.querySelector(".shopping-bag");
 const language = document.querySelectorAll(".language-button");
-// const language = document.querySelector(".language-button");
 const search = document.querySelector(".search");
 const searchField = document.querySelector(".search-field");
 const hiddenSearch = document.querySelector(".hidden-top");
+const main = document.querySelector("main");
+const header = document.querySelector("header");
 
 const minWidth = window.matchMedia("(min-width: 768px)");
+
+/* console.log(main.height());
+
+const headerHeight = `${header.style.height} px`;
+
+console.log(headerHeight); */
+
+// main.style.marginTop = `${headerHeight}px`;
 
 window.addEventListener("resize", () => {
   if (minWidth.matches) {
