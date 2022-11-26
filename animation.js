@@ -12,6 +12,7 @@ const searchField = document.querySelector(".search-field");
 const hiddenSearch = document.querySelector(".hidden-top");
 const main = document.querySelector("main");
 const header = document.querySelector("header");
+const heroImg = document.querySelector(".hero img");
 
 const minWidth = window.matchMedia("(min-width: 768px)");
 

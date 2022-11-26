@@ -3,26 +3,24 @@ main {
 }
 
 .hero {
-  height: 100;
+  height: 424px;
   width: 100%;
   background-image: url("/images/Hero\ Mobile.jpg");
-  /* object-fit: cover;
-  orientation: center; */
+  background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .hero-image {
   height: 424px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-grow: 1;
-  gap: 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  row-gap: 60px;
+  padding: 30px 0 30px 0;
 }
 
 .hero-image button {
@@ -40,6 +38,14 @@ main {
   font-size: 16px;
   color: var(--color-white);
   margin: 0;
+  padding: 0 60px 0 60px;
+  width: 390px;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 100%;
+  /* position: relative; */
 }
 
 article {
@@ -192,6 +198,7 @@ input[type="email"]:focus {
   .hero {
     background-image: url("/images/Hero\ Desktop.jpg");
     height: 859px;
+    padding: 0 100px 0 100px;
   }
 
   .articles-wrapper {
@@ -222,6 +229,12 @@ input[type="email"]:focus {
     row-gap: 40px;
   }
 
+  .hero-image {
+    height: 859px;
+    row-gap: 116px;
+    padding: 58px 0 140px 0;
+  }
+
   .hero-image button {
     width: 226px;
     height: 56px;
@@ -230,5 +243,7 @@ input[type="email"]:focus {
 
   .hero-image p {
     font-size: 48px;
+    width: 100%;
+    padding: 0;
   }
 }
