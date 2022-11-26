@@ -59,7 +59,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 26px 100px 56px 40px;
+    padding: 25px 100px 56px 25px;
     flex-wrap: wrap;
     column-gap: 200px;
     row-gap: 20px;

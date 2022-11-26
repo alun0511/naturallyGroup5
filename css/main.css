@@ -98,7 +98,7 @@ article h6 {
 }
 
 .offer-section label {
-  display: block;
+  /* display: block; */
   margin-bottom: 1rem;
 }
 
