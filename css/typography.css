@@ -1,4 +1,6 @@
 /* MOBILE */
+
+/*Font colors*/
 .hero-image p,
 h1,
 h2,
@@ -12,6 +14,7 @@ form label,
   color: var(--color-white);
 }
 
+.language-button,
 .drop-menu a,
 .drop-menu strong,
 .cart p,
@@ -26,72 +29,98 @@ h6,
   color: var(--color-black-light);
 }
 
+/*Font-family*/
 h1,
-h3 {
+h3,
+h4 {
   font-family: "Fahkwang-Regular";
 }
 
-/* .menu-links {
-  font-family: "Fahkwang-extralight";
-} */
-
-/* .menu-links {
-  font-family: "Fahkwang-bold";
-} */
-
+.language-button,
+.offer div,
+.menu-links a,
 .drop-menu a,
 .cart p,
 .hero-image p,
 .hero-image button,
 h2,
 .info p,
-.search-field input {
+.search-field input,
+article button,
+h5,
+.socials-text p,
+form label,
+form button,
+h6,
+.footer-links a {
   font-family: "Exo-Regular";
 }
 
-/* .menu-links {
+form input {
   font-family: "Exo-Light";
-} */
+}
 
-h1 {
-  /* font-family: "Fahkwang-Regular"; */
-  font-size: 4rem;
-  margin: 0;
+/*Font-size*/
+.hero-image p,
+.hero-image button,
+.search-field input,
+.info p,
+article button,
+.socials-text p,
+form input,
+form button,
+h6 {
+  font-size: 16px;
+}
+
+.language-button,
+.drop-menu a,
+.drop-menu strong,
+.cart p {
+  font-size: 18px;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 38px;
+}
+
+h1,
+form label {
+  font-size: 48px;
+}
+
+h1 {
+  margin: 0;
 }
 
 h3 {
-  /* font-family: "Exo-Regular"; */
-  font-size: 24px;
   margin: 0;
   background-color: var(--color-green-middle);
   text-align: center;
 }
 
-h4 {
+h5 {
   margin: 0;
   padding: 0;
-  /* font-family: "Exo-Regular"; */
-  font-size: 2rem;
 }
 
 .articles h4 {
-  /* font-family: "Fahkwang-Regular"; */
-  font-size: 2rem;
   background-color: var(--color-almost-black);
 }
 
 .footer-icons h6 {
   margin: 0;
-  /* font-family: "Exo-Regular"; */
-  font-size: 1rem;
 }
 
 .socials-text p {
-  margin-bottom: 1rem;
   margin-top: 0;
   padding: 0;
 }
@@ -103,35 +132,67 @@ h4 {
 /* DESKTOP */
 @media (min-width: 768px) {
   h6 {
-    /* font-family: "Exo-Regular"; */
-    font-size: 32px;
     margin: 0;
-  }
-  .socials-text p {
-    font-size: 1.8rem;
-  }
-  h4 {
-    font-size: 3rem;
-  }
-  h1 {
-    font-size: 96px;
   }
 
   h2 {
-    font-size: 58px;
     width: 560px;
     height: 146px;
     text-align: left;
-    font-weight: 200;
   }
 
   .info p {
-    font-size: 28px;
     width: 696px;
     height: 944px;
   }
 
+  /*Font-size*/
+  .offer div {
+    font-size: 16px;
+  }
+
+  .menu-links a {
+    font-size: 20px;
+  }
+
+  .search-field input,
+  .menu-links a {
+    font-size: 24px;
+  }
+
+  .info p,
+  .socials-text p {
+    font-size: 28px;
+  }
+
+  .cart p,
   h6 {
     font-size: 32px;
+  }
+
+  .hero-image button,
+  article button,
+  form input,
+  form button {
+    font-size: 40px;
+  }
+
+  .hero-image p {
+    font-size: 48px;
+  }
+
+  h2,
+  h4,
+  h5 {
+    font-size: 58px;
+  }
+
+  form label {
+    font-size: 64px;
+  }
+
+  h1,
+  h3 {
+    font-size: 96px;
   }
 }

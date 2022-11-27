@@ -30,7 +30,6 @@
 
 * {
   box-sizing: border-box;
-  color: hotpink;
 }
 
 body {
@@ -38,5 +37,4 @@ body {
   height: 100vh;
   margin: 0;
   background-color: var(--color-white);
-  /* font-family: var(--font-family-base); */
 }

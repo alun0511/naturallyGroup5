@@ -28,13 +28,11 @@ main {
   width: 119px;
   height: 32px;
   background-color: var(--color-light-green);
-  /* font-family: "Exo-Regular"; */
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 .hero-image p {
-  /* font-family: "Exo-Regular"; */
-  font-size: 16px;
+  /* font-size: 16px; */
   margin: 0;
   padding: 0 60px 0 60px;
   width: 390px;
@@ -71,7 +69,7 @@ article h6 {
   padding: 0 8px 0 8px;
 }
 
-.articles-wrapper h2 {
+.articles-wrapper h3 {
   display: none;
 }
 
@@ -125,8 +123,7 @@ article h6 {
 }
 
 .info p {
-  /* font-family: "Exo-Regular"; */
-  font-size: 16px;
+  /* font-size: 16px; */
   padding: 8px;
   height: 400px;
   background-color: var(--color-green-middle);
@@ -138,20 +135,17 @@ form button {
   display: inline-block;
   height: 32px;
   width: 109px;
-  /* font-family: "Exo-Regular"; */
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 form label {
-  /* font-family: "Exo-Regular"; */
-  font-size: 40px;
+  /* font-size: 40px; */
 }
 
 input[type="email"] {
   border: none;
-  /* font-family: "Exo-Light"; */
   font-style: italic;
-  font-size: 16px;
+  /* font-size: 16px; */
   width: 193px;
   height: 32px;
 }
@@ -197,6 +191,10 @@ input[type="email"]:focus {
     padding: 0 100px 0 100px;
   }
 
+  .articles-wrapper h3 {
+    /* display: block; */
+  }
+
   .articles-wrapper {
     width: 100%;
     height: 1408px;
@@ -234,11 +232,11 @@ input[type="email"]:focus {
   .hero-image button {
     width: 226px;
     height: 56px;
-    font-size: 40px;
+    /* font-size: 40px; */
   }
 
   .hero-image p {
-    font-size: 48px;
+    /* font-size: 48px; */
     width: 100%;
     padding: 0;
   }

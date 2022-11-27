@@ -64,8 +64,7 @@ button:hover,
 .hidden-menus button,
 .hidden-menus a {
   margin: 0;
-  /* font-family: "Exo-Regular"; */
-  font-size: 18px;
+  /* font-size: 18px; */
   white-space: nowrap;
   padding: 0;
 }
@@ -73,8 +72,7 @@ button:hover,
 .cart p {
   margin: 32px 24px 0 24px;
   border-bottom: solid 2px var(--color-black-light);
-  /* font-family: "Exo-Regular"; */
-  font-size: 18px;
+  /* font-size: 18px; */
   text-align: right;
 }
 
@@ -148,7 +146,6 @@ button:hover,
   .menu-links a,
   .menu-links button {
     margin: 0;
-    /* font-family: "Exo-Regular"; */
     font-size: 24px;
     white-space: nowrap;
   }
@@ -191,6 +188,6 @@ button:hover,
   }
 
   .cart p {
-    font-size: 32px;
+    /* font-size: 32px; */
   }
 }
