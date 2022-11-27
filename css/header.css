@@ -64,7 +64,6 @@ button:hover,
 .hidden-menus button,
 .hidden-menus a {
   margin: 0;
-  /* font-size: 18px; */
   white-space: nowrap;
   padding: 0;
 }
@@ -72,7 +71,6 @@ button:hover,
 .cart p {
   margin: 32px 24px 0 24px;
   border-bottom: solid 2px var(--color-black-light);
-  /* font-size: 18px; */
   text-align: right;
 }
 
@@ -185,9 +183,5 @@ button:hover,
   .shopping-bag {
     width: 50px;
     height: 50px;
-  }
-
-  .cart p {
-    /* font-size: 32px; */
   }
 }
