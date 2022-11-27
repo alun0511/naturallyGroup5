@@ -64,19 +64,17 @@ button:hover,
 .hidden-menus button,
 .hidden-menus a {
   margin: 0;
-  font-family: "Exo-Regular";
+  /* font-family: "Exo-Regular"; */
   font-size: 18px;
   white-space: nowrap;
-  color: var(--color-black-light);
   padding: 0;
 }
 
 .cart p {
   margin: 32px 24px 0 24px;
   border-bottom: solid 2px var(--color-black-light);
-  font-family: "Exo-Regular";
+  /* font-family: "Exo-Regular"; */
   font-size: 18px;
-  color: var(--color-black-light);
   text-align: right;
 }
 
@@ -150,10 +148,9 @@ button:hover,
   .menu-links a,
   .menu-links button {
     margin: 0;
-    font-family: "Exo-Regular";
+    /* font-family: "Exo-Regular"; */
     font-size: 24px;
     white-space: nowrap;
-    color: var(--color-black-light);
   }
 
   .menu-links button {
@@ -168,7 +165,6 @@ button:hover,
     background-color: var(--color-black-light);
     display: flex;
     align-items: center;
-    color: var(--color-white);
     padding-left: 80px;
   }
 

@@ -1,9 +1,4 @@
-/* DESKTOP */
-@media (min-width: 768px) {
-}
-
 /* MOBILE */
-
 footer {
   display: flex;
   flex-direction: column;
@@ -52,6 +47,7 @@ footer {
   height: 30px;
 }
 
+/* DESKTOP */
 @media (min-width: 768px) {
   footer {
     height: auto;
@@ -65,12 +61,6 @@ footer {
     row-gap: 20px;
   }
 
-  h5 {
-    font-family: "Exo-Regular";
-    font-size: 32px;
-    margin: 0;
-  }
-
   .footer-links-container {
     display: flex;
     flex-direction: row;
@@ -79,7 +69,6 @@ footer {
 
   .footer-links-container a {
     text-decoration: none;
-    color: var(--color-black-light);
   }
 
   .footer-links {

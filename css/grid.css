@@ -1,7 +1,3 @@
-/* DESKTOP */
-@media (min-width: 768px) {
-}
-
 /* MOBILE */
 
 main {
@@ -20,3 +16,7 @@ main {
   grid-template-rows: auto 1fr;
   row-gap: 58px;
 } */
+
+/* DESKTOP */
+@media (min-width: 768px) {
+}
