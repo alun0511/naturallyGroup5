@@ -1,11 +1,11 @@
 main {
   margin-top: 70px;
+  z-index: 3;
 }
 
 .hero {
   height: 424px;
   width: 100%;
-  /* background-image: url("/images/Hero\ Mobile.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -42,10 +42,6 @@ main {
   padding: 0 60px 0 60px;
   width: 390px;
   text-align: center;
-}
-
-.hero-image img {
-  width: 100%;
 }
 
 article {
@@ -102,7 +98,6 @@ article button {
 }
 
 .offer-section label {
-  /* display: block; */
   margin-bottom: 1rem;
 }
 
@@ -124,7 +119,6 @@ article button {
   );
   height: 400px;
   width: 100%;
-  /* display: flex; */
   padding: 0 8px 0 8px;
   justify-content: center;
   flex-direction: column;
@@ -187,13 +181,8 @@ input[type="email"]:focus {
   }
 
   .hero {
-    /* background-image: url("/images/Hero\ Desktop.jpg"); */
     height: 859px;
     padding: 0 100px 0 100px;
-  }
-
-  .articles-wrapper h3 {
-    /* display: block; */
   }
 
   .articles-wrapper {
@@ -211,8 +200,6 @@ input[type="email"]:focus {
   article {
     width: 420px;
     height: 420px;
-    /* justify-content: center;
-    align-content: center; */
     justify-self: center;
   }
 
