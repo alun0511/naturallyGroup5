@@ -34,8 +34,8 @@
 /* Fahkwang regular + extralight + bold */
 
 @font-face {
-  font-family: "Fahkwang";
-  src: local("Fahkwang"),
+  font-family: "Fahkwang-Regular";
+  src: local("Fahkwang-Regular"),
     url("/nyaFonter/Fahkwang/Fahkwang-Regular.woff2") format("woff2"),
     url("/nyaFonter/Fahkwang/Fahkwang-Regular.woff") format("wuff");
   font-weight: 400;
