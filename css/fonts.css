@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: "Exo-Regular";
-  src: local("Exo-Regular"), url("/fonts/Exo/Exo-Light.woff") format("woff2"),
+  src: local("Exo-Regular"),
+    url("../fonts/Exo/Exo-Regular.woff2") format("woff2"),
     url("/fonts/Exo/Exo-Regular.woff") format("woff");
   font-weight: 400;
 }
