@@ -92,7 +92,7 @@ h2,
 article {
   height: auto;
   width: 100%;
-  background-color: var(--color-off-white);
+  /* background-color: var(--color-off-white); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,6 +106,8 @@ article h4 {
 
 article button {
   background-color: var(--color-green-darkend);
+  width: 130px;
+  height: 32px;
 }
 
 .articles {
@@ -123,7 +125,7 @@ article button {
 }
 
 .articles img {
-  width: 100%;
+  width: 328px;
   justify-self: flex-start;
 }
 
@@ -140,6 +142,7 @@ article button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 88px;
 }
 
 .offer-section label {
@@ -210,12 +213,30 @@ form input:focus {
   main {
     margin-top: 134px;
   }
+
+  .offer-section {
+    padding: 0 100px 0 100px;
+  }
+
+  .info {
+    height: 1452px;
+  }
+
+  .info-header {
+    width: 580px;
+    height: 146px;
+  }
+
+  .info-text {
+    width: 696px;
+    height: 944px;
+  }
   .socials-text img {
     width: 80px;
     margin-right: 40px;
   }
 
-  .socials-text {
+  .socials-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -228,22 +249,38 @@ form input:focus {
     padding: 0 100px 0 100px;
   }
 
+  .articles-wrapper h3 {
+    display: flex;
+    justify-content: center;
+  }
+
   .articles-wrapper {
     width: 100%;
     height: 1408px;
-    background: rgb(46, 44, 47);
-    background: linear-gradient(
-      180deg,
-      rgba(46, 44, 47, 1) 32%,
-      rgba(254, 255, 246, 1) 100%
-    );
-    border: 4px solid var(--color-green-middle);
+  }
+
+  .article-container {
+    width: 420px;
+    height: 420px;
   }
 
   article {
-    width: 420px;
+    /* width: 420px;
     height: 420px;
     justify-self: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center; */
+  }
+
+  .article img {
+    width: 420px;
+    height: 420px;
+  }
+
+  .article-button button {
+    width: 254px;
+    height: 56px;
   }
 
   .articles {
@@ -257,7 +294,7 @@ form input:focus {
   .hero-image {
     height: 859px;
     row-gap: 116px;
-    padding: 58px 0 140px 0;
+    padding: 0 0 140px 0;
   }
 
   .hero-image button {
@@ -268,5 +305,15 @@ form input:focus {
   .hero-image p {
     width: 100%;
     padding: 0;
+  }
+
+  form button {
+    height: 56px;
+    width: 200px;
+  }
+
+  form input {
+    height: 56px;
+    width: 467px;
   }
 }

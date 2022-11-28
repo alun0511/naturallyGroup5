@@ -47,7 +47,6 @@ h4 {
 .cart p,
 .hero-image p,
 .hero-image button,
-h2,
 .info p,
 .search-field input,
 article button,
@@ -61,7 +60,8 @@ h6,
 }
 
 form input,
-form p {
+form p,
+h2 {
   font-family: "Exo-ExtraLight";
 }
 
@@ -182,11 +182,13 @@ h5 {
   .hero-image button,
   article button,
   form input,
-  form button {
+  form button,
+  form p {
     font-size: 40px;
   }
 
-  .hero-image p {
+  .hero-image p,
+  form label {
     font-size: 48px;
   }
 
@@ -194,10 +196,6 @@ h5 {
   h4,
   h5 {
     font-size: 58px;
-  }
-
-  form label {
-    font-size: 64px;
   }
 
   h1,
