@@ -116,6 +116,19 @@ article button {
   justify-content: center;
 }
 
+.article-container {
+  position: relative;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.article-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .articles-wrapper {
   padding: 0 8px 0 8px;
 }
@@ -223,8 +236,9 @@ form input:focus {
   }
 
   .info-header {
-    width: 580px;
+    width: 620px;
     height: 146px;
+    white-space: nowrap;
   }
 
   .info-text {
