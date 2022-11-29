@@ -65,6 +65,15 @@
   height: 30px;
 }
 
+button:hover {
+  background-color: var(--color-dark-purple);
+  color: var(--color-creme);
+}
+
+button:active {
+  background-color: var(--color-green-deep);
+}
+
 @media (min-width: 768px) {
   .cart {
     width: 609px;

@@ -226,6 +226,10 @@ form input:focus {
   width: 50px;
 }
 
+button {
+  transition: 0.3s;
+}
+
 @media (min-width: 768px) {
   main {
     margin-top: 134px;
