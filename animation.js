@@ -16,14 +16,6 @@ const heroImg = document.querySelector(".hero img");
 
 const minWidth = window.matchMedia("(min-width: 768px)");
 
-/* console.log(main.height());
-
-const headerHeight = `${header.style.height} px`;
-
-console.log(headerHeight); */
-
-// main.style.marginTop = `${headerHeight}px`;
-
 window.addEventListener("resize", () => {
   if (minWidth.matches) {
     menu.classList.add("hidden-left");
