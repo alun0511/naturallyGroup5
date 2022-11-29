@@ -65,6 +65,7 @@ h2,
   height: 92px;
   background-color: var(--color-green-middle);
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -238,13 +239,14 @@ form input:focus {
 
   .info-header {
     width: 620px;
-    height: 146px;
+    height: 160px;
     white-space: nowrap;
   }
 
   .info-text {
     width: 696px;
     height: 944px;
+    text-align: left;
   }
   .socials-text img {
     width: 80px;
