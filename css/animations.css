@@ -65,13 +65,9 @@
   height: 30px;
 }
 
-button:hover {
-  background-color: var(--color-dark-purple);
-  color: var(--color-creme);
-}
-
 button:active {
   background-color: var(--color-green-deep);
+  color: var(--color-creme);
 }
 
 @media (min-width: 768px) {
@@ -83,5 +79,10 @@ button:active {
   .hidden-menus button {
     width: 53px;
     height: 24px;
+  }
+
+  button:hover {
+    background-color: var(--color-dark-purple);
+    color: var(--color-creme);
   }
 }
