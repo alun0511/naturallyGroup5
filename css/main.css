@@ -264,8 +264,9 @@ form input:focus {
   }
 
   .hero {
-    height: 859px;
-    padding: 0 100px 0 100px;
+    height: 900px;
+    width: 100%;
+    /* padding: 0 100px 0 100px; */
   }
 
   .articles-wrapper h3 {
