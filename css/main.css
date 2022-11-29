@@ -292,21 +292,35 @@ button {
   article {
     /* width: 420px;
     height: 420px; */
+    width: 100%;
     display: grid;
     justify-self: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    /* grid-template-columns: 20% 80%; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     align-items: center;
     background-color: transparent;
   }
 
-  /* .articles article :nth-child(1) h4:nth-child(1) {
+  .article-title {
+    width: 100%;
+  }
+
+  .rotate-left h4 {
     transform: rotate(-90deg);
-  } */
+  }
+
+  .rotate-right h4 {
+    transform: rotate(90deg);
+  }
 
   .article img {
     width: 420px;
     height: 420px;
+  }
+
+  .article-button {
+    transform: translate(-50%);
   }
 
   .article-button button {
@@ -316,6 +330,8 @@ button {
 
   .articles {
     display: grid;
+    /* grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 500px); */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
