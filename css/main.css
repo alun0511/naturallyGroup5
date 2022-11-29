@@ -91,7 +91,7 @@ h2,
 }
 
 article {
-  height: 402px;
+  height: auto;
   width: 354px;
   background-color: var(--color-black-light);
   display: flex;
