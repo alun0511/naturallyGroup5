@@ -94,6 +94,8 @@ button:hover,
 .logo-wrapper {
   width: 40px;
   height: 40px;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .search {
@@ -169,6 +171,10 @@ button:hover,
     width: 100px;
     height: 80px;
     padding-bottom: 0;
+  }
+
+  .logo-wrapper {
+    flex-grow: 0;
   }
 
   .icon-wrapper {
