@@ -98,10 +98,13 @@ article {
   flex-direction: column;
 }
 
-article h4 {
-  margin: 18px 0px;
-  text-align: center;
+.article-header h4 {
   justify-self: center;
+}
+
+h4 {
+  text-align: center;
+  margin: 18px 0px;
 }
 
 article button {
@@ -115,7 +118,6 @@ article button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  column-gap: 10px;
 }
 
 .article-container {
@@ -292,6 +294,7 @@ form input:focus {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
+    background-color: transparent;
   }
 
   .article img {
