@@ -202,4 +202,8 @@ h5 {
   h3 {
     font-size: 96px;
   }
+
+  .articles h4 {
+    background-color: transparent;
+  }
 }

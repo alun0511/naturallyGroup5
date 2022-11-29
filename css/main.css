@@ -257,6 +257,10 @@ form input:focus {
   .articles-wrapper {
     width: 100%;
     height: 1408px;
+    background-image: linear-gradient(
+      var(--color-dark-purple),
+      var(--color-creme)
+    );
   }
 
   .article-container {
@@ -265,12 +269,12 @@ form input:focus {
   }
 
   article {
-    /* width: 420px;
+    width: 420px;
     height: 420px;
     justify-self: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    align-items: center; */
+    align-items: center;
   }
 
   .article img {
@@ -289,6 +293,7 @@ form input:focus {
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
     row-gap: 40px;
+    /* height: 1408px; */
   }
 
   .hero-image {
