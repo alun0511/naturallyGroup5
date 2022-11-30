@@ -25,6 +25,12 @@
   --color-green-darkend: #3f533e;
   --color-off: #a3a3a4;
 
+  --color-product-red: #893f04;
+  --color-product-orange: #c58b2a;
+  --color-product-beige: #e5d3b3;
+  --color-product-light-green: #c3c6b1;
+  --color-product-dark-green: #4b553a;
+
   /* Font Family */
 
   --font-family-base: Exo, Arial, sans-serif;
