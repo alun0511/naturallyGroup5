@@ -3,6 +3,10 @@ main {
   z-index: 3;
 }
 
+.hidden {
+  display: none;
+}
+
 .hero {
   margin: 0;
   text-align: center;
@@ -139,12 +143,12 @@ article button {
   transform: translate(-50%, -50%);
 }
 
-.articles-wrapper {
-  padding: 0 8px 0 8px;
-}
-
 .articles-wrapper h3 {
   display: block;
+}
+
+.articles-wrapper {
+  display: none;
 }
 
 .articles img {
@@ -243,6 +247,10 @@ button {
     margin-top: 134px;
   }
 
+  .articles-wrapper-mobile {
+    display: none;
+  }
+
   .offer-section {
     padding: 0 60px 0 60px;
   }
@@ -287,19 +295,38 @@ button {
       var(--color-dark-purple),
       var(--color-creme)
     );
+    display: grid;
+    grid-template-rows: 140px 500px;
+    grid-template-columns: 1fr;
+    row-gap: 100px;
   }
 
   article {
-    /* width: 420px;
-    height: 420px; */
     width: 100%;
     display: grid;
     justify-self: center;
-    /* grid-template-columns: 20% 80%; */
+    /* grid-template-columns: 10% 90%; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
     background-color: transparent;
+  }
+
+  .left {
+    /* grid-template-columns: 10% 90%; */
+    /* grid-template-rows: 1fr; */
+  }
+
+  .right {
+    /* grid-template-columns: 90% 10%; */
+    /* grid-template-rows: 1fr; */
+  }
+
+  .article-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 50px;
   }
 
   .article-title {
@@ -308,10 +335,16 @@ button {
 
   .rotate-left h4 {
     transform: rotate(-90deg);
+    width: 60px;
   }
 
   .rotate-right h4 {
     transform: rotate(90deg);
+    width: 60px;
+  }
+
+  .flip h4 {
+    transform: rotate(180deg);
   }
 
   .article img {
@@ -330,13 +363,10 @@ button {
 
   .articles {
     display: grid;
-    /* grid-template-columns: repeat(2, 500px);
-    grid-template-rows: repeat(2, 500px); */
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
     gap: 40px;
-    height: 1408px;
   }
 
   h4 {

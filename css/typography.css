@@ -181,12 +181,12 @@ h5 {
   }
 
   .hero-image p,
-  form label {
+  form label,
+  h4 {
     font-size: 48px;
   }
 
   h2,
-  h4,
   h5 {
     font-size: 58px;
   }
