@@ -308,7 +308,7 @@ button {
     /* grid-template-columns: 10% 90%; */
     /* grid-template-rows: 1fr; */
     /* width: 60px; */
-    padding-left: 160px;
+    /* padding-left: 160px; */
   }
 
   .right {
@@ -323,9 +323,14 @@ button {
     gap: 50px;
   }
 
-  .article-title {
+  .article-title.rotate-left {
     width: 100%;
     display: flex;
+    justify-content: flex-end;
+  }
+
+  .rotate-right {
+    /* align-self: flex-start; */
   }
 
   .left {
