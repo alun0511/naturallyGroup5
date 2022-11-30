@@ -143,10 +143,6 @@ article button {
   transform: translate(-50%, -50%);
 }
 
-.articles-wrapper h3 {
-  display: block;
-}
-
 .articles-wrapper {
   display: none;
 }
@@ -282,11 +278,6 @@ button {
     justify-content: center;
     align-items: center;
     margin: 6rem auto 2rem;
-  }
-
-  .articles-wrapper h3 {
-    display: flex;
-    justify-content: center;
   }
 
   .articles-wrapper {
