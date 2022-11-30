@@ -294,6 +294,10 @@ button {
   border-radius: 100%;
 }
 
+.product-colors button:focus {
+  opacity: 100%;
+}
+
 .product-colors.sweater {
   padding: 0 35px 0 35px;
 }
