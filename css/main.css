@@ -325,6 +325,11 @@ button {
 
   .article-title {
     width: 100%;
+    display: flex;
+  }
+
+  .left {
+    justify-content: flex-end;
   }
 
   .rotate-left h4 {
