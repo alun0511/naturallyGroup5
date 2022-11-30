@@ -279,8 +279,8 @@ button {
 }
 
 .product-colors {
-  top: 70%;
-  left: 25%;
+  top: 65%;
+  /* left: 25%; */
 }
 
 .product-colors,
@@ -292,6 +292,19 @@ button {
   width: 50px;
   height: 50px;
   border-radius: 100%;
+}
+
+.product-colors.sweater {
+  padding: 0 35px 0 35px;
+}
+
+.product-colors.braicelet,
+.product-colors.thermos {
+  padding: 0 70px 0 70px;
+}
+
+.product-colors.socks {
+  padding: 0 125px 0 125px;
 }
 
 @media (min-width: 768px) {
@@ -453,5 +466,26 @@ button {
   .article-container {
     width: 420px;
     height: 420px;
+  }
+
+  .alternative {
+    padding: 0;
+  }
+
+  .product-colors {
+    top: 70%;
+  }
+
+  .product-colors.sweater {
+    padding: 0 77px 0 77px;
+  }
+
+  .product-colors.braicelet,
+  .product-colors.thermos {
+    padding: 0 103px 0 103px;
+  }
+
+  .product-colors.socks {
+    padding: 0 158px 0 158px;
   }
 }
