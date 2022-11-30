@@ -329,7 +329,7 @@ button {
   }
 
   .left {
-    justify-content: flex-end;
+    align-self: flex-end;
   }
 
   .rotate-left h4 {
