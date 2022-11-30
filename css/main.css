@@ -239,6 +239,40 @@ button {
   transition: 0.3s;
 }
 
+.product-colors button:hover {
+  opacity: 100%;
+}
+
+.dark-green,
+.light-green,
+.red,
+.orange,
+.beige,
+.trio {
+  opacity: 50%;
+}
+
+.dark-green {
+  background-color: var(--color-product-dark-green);
+}
+
+.light-green {
+  background-color: var(--color-product-light-green);
+}
+
+.red {
+  background-color: var(--color-product-red);
+}
+
+.orange {
+  background-color: var(--color-product-orange);
+}
+
+.beige,
+.trio {
+  background-color: var(--color-product-beige);
+}
+
 .alternate-style {
   right: 5%;
   top: 5%;

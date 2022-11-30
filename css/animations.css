@@ -85,7 +85,9 @@ button:active {
     color: var(--color-creme);
   }
 
-  button:hover {
+  .hero button:hover,
+  .article-button button:hover,
+  form button:hover {
     background-color: var(--color-dark-purple);
     color: var(--color-creme);
   }
