@@ -222,15 +222,15 @@
                 <h4 class="eng">more of less</h4>
                 <h4 class="sve">mer av mindre</h4>
                 <div class="article-container">
-                  <img src="images/products/Bracelet/bracelet+logo420x420.png" alt="">
+                  <img id="braicelet-desktop" src="images/products/Bracelet/bracelet_green420x420.png" alt="">
                   <div class="alternate-style">
-                    <button class="alternative"></button>
+                    <button class="alternative braicelet" onclick="braceletLogoDesk()"></button>
                   </div>
-                  <div class="product-colors">
-                    <button class="dark-green"></button>
-                    <button class="light-green"></button>
-                    <button class="red"></button>
-                    <button class="orange"></button>
+                  <div class="product-colors braicelet">
+                    <button class="dark-green" onclick="braceletDarkGreenDesk()"></button>
+                    <button class="light-green" onclick="braceletLightkGreenDesk()"></button>
+                    <button class="red" onclick="braceletRedDesk()"></button>
+                    <button class="orange" onclick="braceletOrangeDesk()"></button>
                   </div>
                   <div class="article-button">
                     <button class="eng" class="add-cart">Add to cart</button>
@@ -245,11 +245,21 @@
                 <h4 class="eng">The feeling</h4>
                 <h4 class="sve">Känslan</h4>
                 <div class="article-container">
-                  <img src="/images/products/Sweater/fleece_desktop_beige.jpg" alt="">
+                  <img id="sweater-desktop" src="/images/products/Sweater/fleece_desktop_beige.jpg" alt="">
                   <div class="video-container hidden">
                     <video autoplay loop muted>
                       <source src="/images/products/Sweater/fleece_animation_desktop.mp4" type="video/mp4">
                     </video>
+                  </div>
+                  <div class="alternate-style">
+                    <button class="alternative sweater" onclick="sweateranimatedDesk()"></button>
+                  </div>
+                  <div class="product-colors sweater">
+                    <button class="dark-green" onclick="sweaterDarkGreenDesk()"></button>
+                    <button class="light-green" onclick="sweaterLightGreenDesk()"></button>
+                    <button class="red" onclick="sweaterRedDesk()"></button>
+                    <button class="orange" onclick="sweaterOrangeDesk()"></button>
+                    <button class="beige" onclick="sweaterBeigeDesk()"></button>
                   </div>
                   <div class="article-button">
                     <button class="eng" class="add-cart">Add to cart</button>
@@ -274,7 +284,11 @@
 
               <div class="article-box">
                 <div class="article-container">
-                  <img src="images/products/Socks/socks+box420x420.png" alt="">
+                  <img id="socks-desktop" src="images/products/Socks/socks+box420x420.png" alt="">
+                  <div class="product-colors socks">
+                    <button class="orange" onclick="socksorangeDesk()"></button>
+                    <button class="light-green" onclick="socksGreenDesk()"></button>
+                  </div>
                   <div class="article-button">
                     <button class="eng" class="add-cart">Add to cart</button>
                     <button class="sve" class="add-cart">Lägg i kundvagn</button>
@@ -290,7 +304,16 @@
             <article class="right">
               <div class="article-box">
                 <div class="article-container">
-                  <img src="/images/products/Thermos/trio_desktop.png" alt="">
+                  <img id="thermos-desktop" src="/images/products/Thermos/trio_desktop.png" alt="">
+                  <div class="alternate-style">
+                    <button class="alternative thermos" onclick="thermosForrestDesk()"></button>
+                  </div>
+                  <div class="product-colors thermos">
+                    <button class="trio" onclick="thermosTrioDesk()"></button>
+                    <button class="dark-green" onclick="thermosGreenDesk()"></button>
+                    <button class="red" onclick="thermosRedDesk()"></button>
+                    <button class="orange" onclick="thermosOrangeDesk()"></button>
+                  </div>
                   <div class="article-button">
                     <button class="eng" class="add-cart">Add to cart</button>
                     <button class="sve" class="add-cart">Lägg i kundvagn</button>
@@ -433,8 +456,77 @@
       </div>
     </footer>
 
+    <img src="" alt="">
+
   </body>
   <script src="animation.js"></script>
   <script src="language-change.js"></script>
+  <script>
+    const braicelet = document.getElementById( "braicelet-desktop" );
+    const sweaterDesk = document.getElementById( "sweater-desktop" );
+    const socksDesk = document.getElementById( "socks-desktop" );
+    const thermosDesk = document.getElementById( "thermos-desktop" );
+
+    const braceletDarkGreenDesk = () => {
+      braicelet.src = "images/products/Bracelet/bracelet_green420x420.png";
+    };
+    const braceletLightkGreenDesk = () => {
+      braicelet.src = "images/products/Bracelet/bracelet_lightgreen420x420.png";
+    };
+    const braceletRedDesk = () => {
+      braicelet.src = "images/products/Bracelet/bracelet_rost420x420.png";
+    };
+    const braceletOrangeDesk = () => {
+      braicelet.src = "images/products/Bracelet/bracelet_yellow420x420.png";
+    };
+    const braceletLogoDesk = () => {
+      braicelet.src = "images/products/Bracelet/bracelet+logo420x420.png";
+    };
+
+
+    const sweaterBeigeDesk = () => {
+      sweaterDesk.src = "images/products/Sweater/fleece_desktop_beige.jpg";
+    };
+    const sweaterDarkGreenDesk = () => {
+      sweaterDesk.src = "images/products/Sweater/fleece_desktop_darkgreen.jpg";
+    };
+    const sweaterLightGreenDesk = () => {
+      sweaterDesk.src = "images/products/Sweater/fleece_desktop_lightgreen.jpg";
+    };
+    const sweaterRedDesk = () => {
+      sweaterDesk.src = "images/products/Sweater/fleece_desktop_red.jpg";
+    };
+    const sweaterOrangeDesk = () => {
+      sweaterDesk.src = "images/products/Sweater/fleece_desktop_yellow.jpg";
+    };
+    const sweateranimatedDesk = () => {
+      sweaterDesk.src = "images/products/Sweater/fleece_animation_desktop.mp4";
+    };
+
+
+    const socksGreenDesk = () => {
+      socksDesk.src = "images/products/Socks/socks+box_ljusa420x420.png";
+    };
+    const socksorangeDesk = () => {
+      socksDesk.src = "images/products/Socks/socks+box420x420.png";
+    };
+
+
+    const thermosGreenDesk = () => {
+      thermosDesk.src = "images/products/Thermos/green_desktop.png";
+    };
+    const thermosRedDesk = () => {
+      thermosDesk.src = "images/products/Thermos/red_desktop.png";
+    };
+    const thermosOrangeDesk = () => {
+      thermosDesk.src = "images/products/Thermos/yellow_desktop.png";
+    };
+    const thermosTrioDesk = () => {
+      thermosDesk.src = "images/products/Thermos/trio_desktop.png";
+    };
+    const thermosForrestDesk = () => {
+      thermosDesk.src = "images/products/Thermos/green_tilted_desktop.png";
+    };
+  </script>
 
 </html>

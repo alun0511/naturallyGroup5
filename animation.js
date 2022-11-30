@@ -13,6 +13,9 @@ const hiddenSearch = document.querySelector(".hidden-top");
 const main = document.querySelector("main");
 const header = document.querySelector("header");
 const heroImg = document.querySelector(".hero img");
+const braicletDarkGreen = document.querySelector(
+  ".product-colors braicelet .dark-green button"
+);
 
 const minWidth = window.matchMedia("(min-width: 768px)");
 
