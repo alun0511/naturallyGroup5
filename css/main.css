@@ -239,6 +239,27 @@ button {
   transition: 0.3s;
 }
 
+.alternate-style {
+  right: 5%;
+  top: 5%;
+}
+
+.product-colors {
+  top: 70%;
+  left: 25%;
+}
+
+.product-colors,
+.alternate-style {
+  position: absolute;
+}
+
+.product-colors button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
 @media (min-width: 768px) {
   main {
     margin-top: 134px;
@@ -297,23 +318,10 @@ button {
     width: 100%;
     display: grid;
     justify-self: center;
-    /* grid-template-columns: 10% 90%; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
     background-color: transparent;
-  }
-
-  .left {
-    /* grid-template-columns: 10% 90%; */
-    /* grid-template-rows: 1fr; */
-    /* width: 60px; */
-    /* padding-left: 160px; */
-  }
-
-  .right {
-    /* grid-template-columns: 90% 10%; */
-    /* grid-template-rows: 1fr; */
   }
 
   .article-row {
@@ -327,10 +335,6 @@ button {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-  }
-
-  .rotate-right {
-    /* align-self: flex-start; */
   }
 
   .left {
@@ -415,26 +419,5 @@ button {
   .article-container {
     width: 420px;
     height: 420px;
-  }
-
-  .product-colors,
-  .alternate-style {
-    position: absolute;
-  }
-
-  .alternate-style {
-    right: 5%;
-    top: 5%;
-  }
-
-  .product-colors {
-    top: 70%;
-    left: 25%;
-  }
-
-  .product-colors button {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
   }
 }

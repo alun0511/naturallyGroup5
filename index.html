@@ -149,7 +149,16 @@
             </h4>
 
             <div class="article-container">
-              <img src="images/products/Bracelet/bracelet+logo354x328.png" alt="">
+              <img id="braicelet-mobile" src="images/products/Bracelet/bracelet_green354x328.png" alt="">
+              <div class="alternate-style">
+                <button class="alternative braicelet" onclick="braceletLogoMobile()"></button>
+              </div>
+              <div class="product-colors braicelet">
+                <button class="dark-green" onclick="braceletDarkGreenMobile()"></button>
+                <button class="light-green" onclick="braceletLightkGreenMobile()"></button>
+                <button class="red" onclick="braceletRedMobile()"></button>
+                <button class="orange" onclick="braceletOrangeMobile()"></button>
+              </div>
               <div class="article-button">
                 <button class="eng" class="add-cart">Add to cart</button>
                 <button class="sve" class="add-cart">Lägg i kundvagn</button>
@@ -164,11 +173,21 @@
             </h4>
             <h4>
               <div class="article-container">
-                <img src="/images/products/Sweater/fleece_mobile_beige.jpg" alt="">
+                <img id="sweater-mobile" src="/images/products/Sweater/fleece_mobile_beige.jpg" alt="">
                 <div class="video-container hidden">
                   <video autoplay loop muted>
                     <source src="/images/products/Sweater/fleece_animation_mobile.mp4" type="video/mp4">
                   </video>
+                </div>
+                <div class="alternate-style">
+                  <button class="alternative sweater" onclick="sweateranimatedMobile()"></button>
+                </div>
+                <div class="product-colors sweater">
+                  <button class="dark-green" onclick="sweaterDarkGreenMobile()"></button>
+                  <button class="light-green" onclick="sweaterLightGreenMobile()"></button>
+                  <button class="red" onclick="sweaterRedMobile()"></button>
+                  <button class="orange" onclick="sweaterOrangeMobile()"></button>
+                  <button class="beige" onclick="sweaterBeigeMobile()"></button>
                 </div>
                 <div class="article-button">
                   <button class="eng" class="add-cart">Add to cart</button>
@@ -183,7 +202,11 @@
               <span class="sve">Daglig komfort</span>
             </h4>
             <div class="article-container">
-              <img src="images/products/Socks/socks+box354x328.png" alt="">
+              <img id="socks-mobile" src="images/products/Socks/socks+box354x328.png" alt="">
+              <div class="product-colors socks">
+                <button class="orange" onclick="socksOrangeMobile()"></button>
+                <button class="light-green" onclick="socksGreenMobile()"></button>
+              </div>
               <div class="article-button">
                 <button class="eng" class="add-cart">Add to cart</button>
                 <button class="sve" class="add-cart">Lägg i kundvagn</button>
@@ -197,7 +220,16 @@
               <span class="sve">Värme inifrån</span>
             </h4>
             <div class="article-container">
-              <img src="/images/products/Thermos/trio_mobile.png" alt="">
+              <img id="thermos-mobile" src="/images/products/Thermos/trio_mobile.png" alt="">
+              <div class="alternate-style">
+                <button class="alternative thermos" onclick="thermosForrestMobile()"></button>
+              </div>
+              <div class="product-colors thermos">
+                <button class="trio" onclick="thermosTrioMobile()"></button>
+                <button class="dark-green" onclick="thermosGreenMobile()"></button>
+                <button class="red" onclick="thermosRedMobile()"></button>
+                <button class="orange" onclick="thermosOrangeMobile()"></button>
+              </div>
               <div class="article-button">
                 <button class="eng" class="add-cart">Add to cart</button>
                 <button class="sve" class="add-cart">Lägg i kundvagn</button>
@@ -206,6 +238,12 @@
           </article>
         </section>
       </div>
+
+
+
+
+
+
 
       <div class="articles-wrapper">
         <h3 class="eng">Lifestyle</h3>
@@ -286,7 +324,7 @@
                 <div class="article-container">
                   <img id="socks-desktop" src="images/products/Socks/socks+box420x420.png" alt="">
                   <div class="product-colors socks">
-                    <button class="orange" onclick="socksorangeDesk()"></button>
+                    <button class="orange" onclick="socksOrangeDesk()"></button>
                     <button class="light-green" onclick="socksGreenDesk()"></button>
                   </div>
                   <div class="article-button">
@@ -462,25 +500,29 @@
   <script src="animation.js"></script>
   <script src="language-change.js"></script>
   <script>
-    const braicelet = document.getElementById( "braicelet-desktop" );
+    const braiceletDesk = document.getElementById( "braicelet-desktop" );
     const sweaterDesk = document.getElementById( "sweater-desktop" );
     const socksDesk = document.getElementById( "socks-desktop" );
     const thermosDesk = document.getElementById( "thermos-desktop" );
+    const braiceletMobile = document.getElementById( "braicelet-mobile" );
+    const sweaterMobile = document.getElementById( "sweater-mobile" );
+    const socksMobile = document.getElementById( "socks-mobile" );
+    const thermosMobile = document.getElementById( "thermos-mobile" );
 
     const braceletDarkGreenDesk = () => {
-      braicelet.src = "images/products/Bracelet/bracelet_green420x420.png";
+      braiceletDesk.src = "images/products/Bracelet/bracelet_green420x420.png";
     };
     const braceletLightkGreenDesk = () => {
-      braicelet.src = "images/products/Bracelet/bracelet_lightgreen420x420.png";
+      braiceletDesk.src = "images/products/Bracelet/bracelet_lightgreen420x420.png";
     };
     const braceletRedDesk = () => {
-      braicelet.src = "images/products/Bracelet/bracelet_rost420x420.png";
+      braiceletDesk.src = "images/products/Bracelet/bracelet_rost420x420.png";
     };
     const braceletOrangeDesk = () => {
-      braicelet.src = "images/products/Bracelet/bracelet_yellow420x420.png";
+      braiceletDesk.src = "images/products/Bracelet/bracelet_yellow420x420.png";
     };
     const braceletLogoDesk = () => {
-      braicelet.src = "images/products/Bracelet/bracelet+logo420x420.png";
+      braiceletDesk.src = "images/products/Bracelet/bracelet+logo420x420.png";
     };
 
 
@@ -507,7 +549,7 @@
     const socksGreenDesk = () => {
       socksDesk.src = "images/products/Socks/socks+box_ljusa420x420.png";
     };
-    const socksorangeDesk = () => {
+    const socksOrangeDesk = () => {
       socksDesk.src = "images/products/Socks/socks+box420x420.png";
     };
 
@@ -527,6 +569,71 @@
     const thermosForrestDesk = () => {
       thermosDesk.src = "images/products/Thermos/green_tilted_desktop.png";
     };
+
+
+
+
+    const braceletDarkGreenMobile = () => {
+      braiceletMobile.src = "images/products/Bracelet/bracelet_green354x328.png";
+    };
+    const braceletLightkGreenMobile = () => {
+      braiceletMobile.src = "images/products/Bracelet/bracelet_lightgreen354x328.png";
+    };
+    const braceletRedMobile = () => {
+      braiceletMobile.src = "images/products/Bracelet/bracelet_rost354x328.png";
+    };
+    const braceletOrangeMobile = () => {
+      braiceletMobile.src = "images/products/Bracelet/bracelet_yellow354x328.png";
+    };
+    const braceletLogoMobile = () => {
+      braiceletMobile.src = "images/products/Bracelet/bracelet+logo354x328.png";
+    };
+
+
+    const sweaterBeigeMobile = () => {
+      sweaterMobile.src = "images/products/Sweater/fleece_mobile_beige.jpg";
+    };
+    const sweaterDarkGreenMobile = () => {
+      sweaterMobile.src = "images/products/Sweater/fleece_mobile_darkgreen.jpg";
+    };
+    const sweaterLightGreenMobile = () => {
+      sweaterMobile.src = "images/products/Sweater/fleece_mobile_lightgreen.jpg";
+    };
+    const sweaterRedMobile = () => {
+      sweaterMobile.src = "images/products/Sweater/fleece_mobile_red.jpg";
+    };
+    const sweaterOrangeMobile = () => {
+      sweaterMobile.src = "images/products/Sweater/fleece_mobile_yellow.jpg";
+    };
+    const sweateranimatedMobile = () => {
+      sweaterMobile.src = "images/products/Sweater/fleece_animation_mobile.mp4";
+    };
+
+
+    const socksGreenMobile = () => {
+      socksMobile.src = "images/products/Socks/socks+box354x328.png";
+    };
+    const socksOrangeMobile = () => {
+      socksMobile.src = "images/products/Socks/socks+box_ljusa354x328.png";
+    };
+
+
+    const thermosGreenMobile = () => {
+      thermosMobile.src = "images/products/Thermos/green_mobile.png";
+    };
+    const thermosRedMobile = () => {
+      thermosMobile.src = "images/products/Thermos/red_mobile.png";
+    };
+    const thermosOrangeMobile = () => {
+      thermosMobile.src = "images/products/Thermos/yellow_mobile.png";
+    };
+    const thermosTrioMobile = () => {
+      thermosMobile.src = "images/products/Thermos/trio_mobile.png";
+    };
+    const thermosForrestMobile = () => {
+      thermosMobile.src = "images/products/Thermos/green_tilted_mobile.png";
+    };
+
   </script>
 
 </html>
