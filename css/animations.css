@@ -81,6 +81,10 @@ button:active {
     height: 24px;
   }
 
+  .menu-links li:hover {
+    color: var(--color-creme);
+  }
+
   button:hover {
     background-color: var(--color-dark-purple);
     color: var(--color-creme);

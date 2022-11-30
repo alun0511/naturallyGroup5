@@ -180,6 +180,7 @@ article button {
 
 .form-wrapper {
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 90%;
   height: 363px;
@@ -315,6 +316,8 @@ button {
   .left {
     /* grid-template-columns: 10% 90%; */
     /* grid-template-rows: 1fr; */
+    /* width: 60px; */
+    padding-left: 160px;
   }
 
   .right {
