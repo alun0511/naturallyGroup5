@@ -14,10 +14,18 @@ const main = document.querySelector("main");
 const header = document.querySelector("header");
 const heroImg = document.querySelector(".hero img");
 const heroVideo = document.querySelector(".hero video");
+const bigLogoMobileUp = document.querySelector(".big-logo img");
+const bigLogoMobileDown = document.querySelector(".big-logo2 img");
 
 heroVideo.playbackRate = 0.78;
 
 const minWidth = window.matchMedia("(min-width: 768px)");
+
+if (minWidth.matches) {
+  bigLogoMobileDown.src = "/images/logo/bigdesktopUp.png";
+  bigLogoMobileUp.src = "/images/logo/bigdesktopDown.png";
+  console.log(bigLogoMobileUp, bigLogoMobileDown);
+}
 
 window.addEventListener("resize", () => {
   if (minWidth.matches) {
