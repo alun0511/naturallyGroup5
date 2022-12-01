@@ -198,8 +198,13 @@ button:hover,
     display: flex;
     align-items: center;
     padding-left: 80px;
+    transition: 0.3s ease;
   }
 
+  .offer:hover {
+    opacity: 80%;
+    height: 56px;
+  }
   .logo-wrapper img,
   .logo-wrapper {
     width: 100px;

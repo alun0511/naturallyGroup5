@@ -16,6 +16,15 @@ const heroImg = document.querySelector(".hero img");
 const heroVideo = document.querySelector(".hero video");
 const bigLogoMobileUp = document.querySelector(".big-logo img");
 const bigLogoMobileDown = document.querySelector(".big-logo2 img");
+const headerOffer = document.querySelector(".offer");
+
+headerOffer.addEventListener("click", () => {
+  emailForm.scrollIntoView({
+    behavior: "smooth",
+    block: "center",
+    inline: "nearest",
+  });
+});
 
 heroVideo.playbackRate = 0.78;
 
