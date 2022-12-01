@@ -95,21 +95,27 @@ button:hover,
 
 .hamburger:hover path {
   fill: rgba(163, 163, 164, 1);
+  transition: 0.3s ease;
 }
 .hamburger:active path {
   fill: rgba(163, 163, 164, 1);
+  transition: 0.3s ease;
 }
 .search:hover path {
   fill: rgba(163, 163, 164, 1);
+  transition: 0.3s ease;
 }
 .search:active path {
   fill: rgba(163, 163, 164, 1);
+  transition: 0.3s ease;
 }
 .shopping-bag:hover path {
   fill: rgba(163, 163, 164, 1);
+  transition: 0.3s ease;
 }
 .shopping-bag:active path {
   fill: rgba(163, 163, 164, 1);
+  transition: 0.3s ease;
 }
 
 .logo-wrapper {
