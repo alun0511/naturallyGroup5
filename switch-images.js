@@ -106,18 +106,28 @@ const braceletLogoMobile = () => {
 
 const sweaterBeigeMobile = () => {
   sweaterMobile.src = "images/products/Sweater/fleece_mobile_beige.jpg";
+  sweaterVideoMobile.classList.add("hidden");
+  sweaterMobile.classList.remove("hidden");
 };
 const sweaterDarkGreenMobile = () => {
   sweaterMobile.src = "images/products/Sweater/fleece_mobile_darkgreen.jpg";
+  sweaterVideoMobile.classList.add("hidden");
+  sweaterMobile.classList.remove("hidden");
 };
 const sweaterLightGreenMobile = () => {
   sweaterMobile.src = "images/products/Sweater/fleece_mobile_lightgreen.jpg";
+  sweaterVideoMobile.classList.add("hidden");
+  sweaterMobile.classList.remove("hidden");
 };
 const sweaterRedMobile = () => {
   sweaterMobile.src = "images/products/Sweater/fleece_mobile_red.jpg";
+  sweaterVideoMobile.classList.add("hidden");
+  sweaterMobile.classList.remove("hidden");
 };
 const sweaterOrangeMobile = () => {
   sweaterMobile.src = "images/products/Sweater/fleece_mobile_yellow.jpg";
+  sweaterVideoMobile.classList.add("hidden");
+  sweaterMobile.classList.remove("hidden");
 };
 const sweateranimatedMobile = () => {
   if (sweaterVideoMobile.classList.contains("hidden")) {
@@ -129,10 +139,10 @@ const sweateranimatedMobile = () => {
   }
 };
 
-const socksGreenMobile = () => {
+const socksOrangeMobile = () => {
   socksMobile.src = "images/products/Socks/socks+box354x328.png";
 };
-const socksOrangeMobile = () => {
+const socksGreenMobile = () => {
   socksMobile.src = "images/products/Socks/socks+box_ljusa354x328.png";
 };
 

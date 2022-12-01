@@ -72,11 +72,6 @@ form button:active {
   color: var(--color-creme);
 }
 
-/* button:active {
-  background-color: var(--color-green-deep);
-  color: var(--color-creme);
-} */
-
 @media (min-width: 768px) {
   .cart {
     width: 609px;

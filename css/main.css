@@ -238,7 +238,7 @@ button {
   transition: 0.3s;
 }
 
-.product-colors button:active {
+.product-colors button:focus {
   opacity: 100%;
 }
 
