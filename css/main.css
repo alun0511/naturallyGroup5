@@ -355,8 +355,8 @@ a {
 }
 
 .searchfield input[type="text"] {
-  margin-top: 5px;
-  width: 100px;
+  margin-top: 10px;
+  width: 200px;
   -webkit-transition: width 0.35s ease-in-out;
   transition: width 0.35s ease-in-out;
   border: 2px solid var(--color-light-green);
@@ -387,7 +387,7 @@ a {
   }
 
   .searchfield input[type="text"]:focus {
-    width: 50%;
+    width: 25%;
     outline: none;
   }
 
