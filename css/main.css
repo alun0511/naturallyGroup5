@@ -41,7 +41,7 @@ video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  row-gap: 130px;
+  row-gap: 250px;
 }
 
 .hero-image button {
@@ -439,8 +439,7 @@ a {
   }
 
   .hero-image {
-    width: 70%;
-    /* width: 100%; */
+    width: 100%;
     row-gap: 116px;
   }
 
