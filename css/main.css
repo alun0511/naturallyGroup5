@@ -239,7 +239,8 @@ a {
   transition: 0.3s;
 }
 
-.product-colors button:focus {
+.product-colors button:focus,
+.alternate-style button:focus {
   opacity: 100%;
 }
 
@@ -248,7 +249,8 @@ a {
 .red,
 .orange,
 .beige,
-.trio {
+.trio,
+.alternate-style button {
   opacity: 50%;
 }
 
@@ -317,7 +319,8 @@ a {
     margin-top: 134px;
   }
 
-  .product-colors button:hover {
+  .product-colors button:hover,
+  .alternate-style button:hover {
     opacity: 100%;
   }
 
