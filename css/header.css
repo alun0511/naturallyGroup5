@@ -124,6 +124,13 @@ button:hover,
   justify-content: center;
   margin-left: 40px;
 }
+.logo-wrapper img {
+  transition: 0.3s ease;
+}
+.logo-wrapper img:hover {
+  width: 72px;
+  height: 42px;
+}
 
 .search {
   width: 30px;
