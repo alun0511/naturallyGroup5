@@ -15,7 +15,7 @@ const header = document.querySelector("header");
 const heroImg = document.querySelector(".hero img");
 const heroVideo = document.querySelector(".hero video");
 
-heroVideo.playbackRate = 0.8;
+heroVideo.playbackRate = 0.78;
 
 const minWidth = window.matchMedia("(min-width: 768px)");
 
