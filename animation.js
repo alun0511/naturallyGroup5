@@ -71,6 +71,14 @@ shoppingBag.addEventListener("click", () => {
   }
 });
 
+const emailForm = document.querySelector(".email-form");
+
+emailForm.addEventListener("submit", (e) => {
+  window.alert(
+    "Thank you for signing up to our newsletter! A voucher has been sent to the submitted email address."
+  );
+});
+
 window.addEventListener("scroll", () => {
   // body.onscroll = () => {
   // console.log(`Hello`);
