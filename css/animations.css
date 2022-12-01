@@ -72,6 +72,10 @@ form button:active {
   color: var(--color-creme);
 }
 
+ul li:hover a {
+  opacity: 50%;
+}
+
 @media (min-width: 768px) {
   .cart {
     width: 609px;
