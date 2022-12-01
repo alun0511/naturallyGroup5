@@ -65,10 +65,17 @@
   height: 30px;
 }
 
-button:active {
+.hero button:active,
+.article-button button:active,
+form button:active {
   background-color: var(--color-green-deep);
   color: var(--color-creme);
 }
+
+/* button:active {
+  background-color: var(--color-green-deep);
+  color: var(--color-creme);
+} */
 
 @media (min-width: 768px) {
   .cart {

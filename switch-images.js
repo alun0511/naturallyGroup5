@@ -7,6 +7,9 @@ const sweaterMobile = document.getElementById("sweater-mobile");
 const socksMobile = document.getElementById("socks-mobile");
 const thermosMobile = document.getElementById("thermos-mobile");
 
+const hiddenClass = document.querySelector(".hidden");
+const sweaterVideo = document.getElementById("sweater-video");
+
 const braceletDarkGreenDesk = () => {
   braiceletDesk.src = "images/products/Bracelet/bracelet_green420x420.png";
 };
@@ -39,14 +42,23 @@ const sweaterOrangeDesk = () => {
   sweaterDesk.src = "images/products/Sweater/fleece_desktop_yellow.jpg";
 };
 const sweateranimatedDesk = () => {
-  sweaterDesk.src = "images/products/Sweater/fleece_animation_desktop.mp4";
+  // sweaterDesk.src = "images/products/Sweater/fleece_animation_desktop.mp4";
+  if (sweaterVideo.classList.contains("hidden")) {
+    sweaterVideo.classList.remove("hidden");
+    sweaterDesk.classList.add("hidden");
+  } else {
+    sweaterVideo.classList.add("hidden");
+    sweaterDesk.classList.remove("hidden");
+  }
 };
 
 const socksGreenDesk = () => {
   socksDesk.src = "images/products/Socks/socks+box_ljusa420x420.png";
+  // socksDesk.style.opacity = "100%";
 };
 const socksOrangeDesk = () => {
   socksDesk.src = "images/products/Socks/socks+box420x420.png";
+  // socksDesk.style.opacity = "100%";
 };
 
 const thermosGreenDesk = () => {

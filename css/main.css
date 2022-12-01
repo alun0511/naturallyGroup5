@@ -239,7 +239,7 @@ button {
   transition: 0.3s;
 }
 
-.product-colors button:hover {
+.product-colors button:active {
   opacity: 100%;
 }
 
@@ -295,7 +295,7 @@ button {
 }
 
 .product-colors button:focus {
-  opacity: 100%;
+  /* opacity: 100%; */
 }
 
 .product-colors.sweater {
@@ -314,6 +314,10 @@ button {
 @media (min-width: 768px) {
   main {
     margin-top: 134px;
+  }
+
+  .product-colors button:hover {
+    opacity: 100%;
   }
 
   .articles-wrapper-mobile {
