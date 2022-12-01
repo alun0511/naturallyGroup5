@@ -350,6 +350,23 @@ a {
   padding: 0 125px 0 125px;
 }
 
+.searchfield {
+  border-top: 1px solid #ccccc6;
+}
+
+.searchfield input[type="text"] {
+  margin-top: 5px;
+  width: 100px;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+  border: 2px solid var(--color-light-green);
+}
+
+.searchfield input[type="text"]:focus {
+  width: 80%;
+  outline: none;
+}
+
 @media (min-width: 768px) {
   main {
     margin-top: 134px;
@@ -367,6 +384,11 @@ a {
   .product-colors button:hover,
   .alternate-style button:hover {
     opacity: 100%;
+  }
+
+  .searchfield input[type="text"]:focus {
+    width: 50%;
+    outline: none;
   }
 
   .articles-wrapper-mobile {
