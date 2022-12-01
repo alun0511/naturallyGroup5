@@ -497,4 +497,28 @@ a {
   .product-colors.socks {
     padding: 0 158px 0 158px;
   }
+
+  .create {
+    padding-bottom: 80px;
+  }
+
+  .feeling {
+    padding-left: 150px;
+  }
+
+  .hug {
+    padding-bottom: 300px;
+  }
+
+  .comfort {
+    padding-top: 300px;
+  }
+
+  .within {
+    padding-right: 150px;
+  }
+
+  .warmth {
+    padding-top: 50px;
+  }
 }
