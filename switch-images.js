@@ -8,7 +8,8 @@ const socksMobile = document.getElementById("socks-mobile");
 const thermosMobile = document.getElementById("thermos-mobile");
 
 const hiddenClass = document.querySelector(".hidden");
-const sweaterVideo = document.getElementById("sweater-video");
+const sweaterVideoDesk = document.getElementById("sweater-video-desk");
+const sweaterVideoMobile = document.getElementById("sweater-video-mobile");
 
 const braceletDarkGreenDesk = () => {
   braiceletDesk.src = "images/products/Bracelet/bracelet_green420x420.png";
@@ -28,26 +29,35 @@ const braceletLogoDesk = () => {
 
 const sweaterBeigeDesk = () => {
   sweaterDesk.src = "images/products/Sweater/fleece_desktop_beige.jpg";
+  sweaterVideoDesk.classList.add("hidden");
+  sweaterDesk.classList.remove("hidden");
 };
 const sweaterDarkGreenDesk = () => {
   sweaterDesk.src = "images/products/Sweater/fleece_desktop_darkgreen.jpg";
+  sweaterVideoDesk.classList.add("hidden");
+  sweaterDesk.classList.remove("hidden");
 };
 const sweaterLightGreenDesk = () => {
   sweaterDesk.src = "images/products/Sweater/fleece_desktop_lightgreen.jpg";
+  sweaterVideoDesk.classList.add("hidden");
+  sweaterDesk.classList.remove("hidden");
 };
 const sweaterRedDesk = () => {
   sweaterDesk.src = "images/products/Sweater/fleece_desktop_red.jpg";
+  sweaterVideoDesk.classList.add("hidden");
+  sweaterDesk.classList.remove("hidden");
 };
 const sweaterOrangeDesk = () => {
   sweaterDesk.src = "images/products/Sweater/fleece_desktop_yellow.jpg";
+  sweaterVideoDesk.classList.add("hidden");
+  sweaterDesk.classList.remove("hidden");
 };
 const sweateranimatedDesk = () => {
-  // sweaterDesk.src = "images/products/Sweater/fleece_animation_desktop.mp4";
-  if (sweaterVideo.classList.contains("hidden")) {
-    sweaterVideo.classList.remove("hidden");
+  if (sweaterVideoDesk.classList.contains("hidden")) {
+    sweaterVideoDesk.classList.remove("hidden");
     sweaterDesk.classList.add("hidden");
   } else {
-    sweaterVideo.classList.add("hidden");
+    sweaterVideoDesk.classList.add("hidden");
     sweaterDesk.classList.remove("hidden");
   }
 };
@@ -110,7 +120,13 @@ const sweaterOrangeMobile = () => {
   sweaterMobile.src = "images/products/Sweater/fleece_mobile_yellow.jpg";
 };
 const sweateranimatedMobile = () => {
-  sweaterMobile.src = "images/products/Sweater/fleece_animation_mobile.mp4";
+  if (sweaterVideoMobile.classList.contains("hidden")) {
+    sweaterVideoMobile.classList.remove("hidden");
+    sweaterMobile.classList.add("hidden");
+  } else {
+    sweaterVideoMobile.classList.add("hidden");
+    sweaterMobile.classList.remove("hidden");
+  }
 };
 
 const socksGreenMobile = () => {

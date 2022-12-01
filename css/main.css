@@ -18,7 +18,6 @@ h1 {
 }
 
 .hero-image {
-  /* height: 424px; */
   width: 100%;
   position: relative;
   object-fit: fill;
@@ -294,10 +293,6 @@ button {
   border-radius: 100%;
 }
 
-.product-colors button:focus {
-  /* opacity: 100%; */
-}
-
 .product-colors.sweater {
   padding: 0 35px 0 35px;
 }
@@ -436,7 +431,14 @@ button {
     display: inline-block;
   }
 
+  /* .hero {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-darkest-green);
+  } */
+
   .hero-image {
+    /* width: 70%; */
     width: 100%;
     row-gap: 116px;
   }
