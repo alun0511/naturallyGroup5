@@ -278,6 +278,12 @@ a {
   top: 5%;
 }
 
+.alternate-style button {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
 .product-colors {
   top: 65%;
 }
