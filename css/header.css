@@ -22,6 +22,7 @@ nav {
   flex-grow: 1;
   padding: 0px 20px 0px 20px;
   background-color: var(--color-creme);
+  margin-bottom: 8px;
   padding-bottom: 8px;
   z-index: 8;
 }
@@ -121,6 +122,7 @@ button:hover,
 .logo-wrapper {
   flex-grow: 1;
   justify-content: center;
+  margin-left: 40px;
 }
 
 .search {
@@ -150,7 +152,6 @@ button:hover,
 /* DESKTOP */
 @media (min-width: 768px) {
   .menu-links ul {
-    display: flex;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
