@@ -75,7 +75,8 @@ article button,
 form input,
 form button,
 h6,
-form p {
+form p,
+.alternate-style button {
   font-size: 16px;
 }
 
