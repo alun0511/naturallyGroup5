@@ -140,7 +140,7 @@ const sweateranimatedMobile = () => {
 };
 
 const socksOrangeMobile = () => {
-  socksMobile.src = "images/products/Socks/socks+box354x328.png";
+  socksMobile.src = "images/products/Socks/socks+box_2_354x328.png";
 };
 const socksGreenMobile = () => {
   socksMobile.src = "images/products/Socks/socks+box_ljusa354x328.png";
