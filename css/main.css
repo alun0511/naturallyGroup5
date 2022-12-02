@@ -338,16 +338,16 @@ a {
 }
 
 .product-colors.sweater {
-  padding: 0 35px 0 35px;
+  padding: 0 0 0 35px;
 }
 
 .product-colors.braicelet,
 .product-colors.thermos {
-  padding: 0 70px 0 70px;
+  padding: 0 0 0 70px;
 }
 
 .product-colors.socks {
-  padding: 0 125px 0 125px;
+  padding: 0 0 0 125px;
 }
 
 .searchfield {
@@ -563,16 +563,16 @@ a {
   }
 
   .product-colors.sweater {
-    padding: 0 77px 0 77px;
+    padding: 0 0 0 77px;
   }
 
   .product-colors.braicelet,
   .product-colors.thermos {
-    padding: 0 103px 0 103px;
+    padding: 0 0 0 103px;
   }
 
   .product-colors.socks {
-    padding: 0 158px 0 158px;
+    padding: 0 0 0 158px;
   }
 
   .create {
